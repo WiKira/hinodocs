@@ -1,6 +1,6 @@
 import ReactPlayer from 'react-player'
 
-# Informar local padrão
+# Informar Local Padrão
  
 :::info
 **Modulo**: Estoque

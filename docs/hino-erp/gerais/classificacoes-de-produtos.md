@@ -1,10 +1,12 @@
-# Classificações de produto
+# Classificações de Produtos
 
 :::info
 **Modulo**: Gerais
 
 **Objetivo**: Capacitar o usuário para instruí-lo quanto às classificações dos produtos no ERP
 :::
+
+---
 
 ## O que é?
 
@@ -36,3 +38,5 @@ A classificação de aplicação de um produto define o propósito principal par
 
 *A industrialização refere-se ao produto adquirido como matéria-prima, ou seja, o produto será transformado no processo produtivo, enquanto produtos de uso e consumo são consumidos durante o uso, sem passar por um processo de produção .*
 :::
+
+---

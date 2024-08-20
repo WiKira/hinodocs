@@ -1,5 +1,13 @@
 # Utilização
 
+:::info
+**Modulo**: Integrações
+
+**Objetivo**: Capacitar o usuário para a instalação e utilização da integração com o Pieta.
+:::
+
+---
+
 A utilização da integração é realizada da seguinte maneira:
 
 - O integrador deverá gerar o orçamento no Pieta.
@@ -13,3 +21,5 @@ A utilização da integração é realizada da seguinte maneira:
 - Após isso ao usuário aprovar o pedido de venda, o sistema irá gerar o programa e a ordem de produção, com os componentes carregados do Pieta.
 - Ao aprovar o pedido de venda, o sistema irá gerar um pedido de compra para o integrador e com o valor de repasse para o produto parametrizado.
 - O apontamento da OP irá gerar o saldo para o produto final e o consumo dos componentes do estoque. E o processo padrão do sistema poderá seguir normalmente.
+  
+---

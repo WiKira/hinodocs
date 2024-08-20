@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Sobre o suporte
+# Sobre o Suporte
 
 :::tip
 ☎️ Precisa de Suporte? Ligue para [**(19)3090-1393](01930901393)**
@@ -26,3 +26,5 @@ sidebar_position: 1
 :::tip
 Quer aprender o que é um usuário chave? [**Clique Aqui!**](../usuarios-chave.md)
 :::
+
+---

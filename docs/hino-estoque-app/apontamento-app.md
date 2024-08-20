@@ -82,3 +82,5 @@ Selecione o processo e pressione confirmar.
 ![apontamento-app-10](./img/apontamento-app/apontamento-app-10.png)
 
 Nesta tela, será necessário informar o produto, o local do estoque de onde o produto será consumido, a quantidade a ser descartada e o motivo da geração do descarte, após preencher basta pressionar o botão “confirmar”.
+
+---

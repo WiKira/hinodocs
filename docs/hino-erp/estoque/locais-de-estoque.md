@@ -12,7 +12,7 @@ Os locais de estoque dentro do ERP desempenham um papel fundamental ao registrar
 
 É importante ressaltar que, durante um processo, um produto pode transitar por diversos locais de estoque, conforme o planejamento operacional da empresa. Essa dinâmica reflete a necessidade de acompanhar e gerenciar o fluxo do produto ao longo das etapas do processo corporativo.
 
-## Locais pré definidos
+## Locais Pré-Definidos
 
 - Durante a fase inicial de implantação do software na empresa, alguns locais de estoque já vêm pré-habilitados e classificados para uso. Estes incluem: **Almox** (Almoxarifado), **Dev** (Devolução), **PA** (Produto Acabado), **Proc** (Processos) e **QRT** (Quarentena).
 
@@ -30,7 +30,7 @@ Os locais de estoque dentro do ERP desempenham um papel fundamental ao registrar
 
 - Embora o ERP forneça esses locais de estoque predefinidos, a empresa não está obrigada a utilizá-los e tem total liberdade para criar seus próprios locais de estoque de acordo com suas necessidades e especificidades operacionais.
 
-## Locais pós definidos (Locais de movimentação)
+## Locais Pós-Definidos (Locais de Movimentação)
 
 Locais pós-definidos referem-se a todos os locais que podem ser necessárias para atender aos diversos processos da empresa. Isso inclui locais como:
 

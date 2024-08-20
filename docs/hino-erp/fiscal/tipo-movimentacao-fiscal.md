@@ -1,4 +1,4 @@
-# Tipo de movimentação fiscal
+# Tipo de Movimentação Fiscal
 
 :::info
 **Modulo**: Fiscal

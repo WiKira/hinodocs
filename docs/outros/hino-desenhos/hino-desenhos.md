@@ -147,3 +147,5 @@ Ao clicar em ‘Abrir desenho’ se o caminho para pasta estiver correto e as pe
 ![hino-desenhos-24](./img/hino-desenhos/hino-desenhos-24.png)
 
 Através do Hino desenhos é possível apenas explorar o documento, não é possível editar, excluir ou alterar os arquivos na pasta de destino.
+
+---

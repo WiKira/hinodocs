@@ -57,3 +57,5 @@ Quer aprender a cadastrar usuários? [**Clique Aqui!**](configuracoes-previas.md
 - Identificação: O campo identificação é para inserir o número do crachá do colaborador se o mesmo tiver e é com esse número que o colaborador irá realizar o login no aplicativo. Caso o colaborador não possua crachá, informa um número de sua preferência.
 
 ![configuracoes-previas-4](./img/configuracoes-previas/configuracoes-previas-4.png)
+
+---

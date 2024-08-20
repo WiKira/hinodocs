@@ -30,8 +30,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'pt',
+    locales: ['pt'],
   },
 
   presets: [
@@ -43,8 +43,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'hinodocs',
+          //editUrl:
+          //  'hinodocs',
         },
         blog: {
           showReadingTime: true,
@@ -54,8 +54,8 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/WiKira/hinodocs',
+          //editUrl:
+          //  'https://github.com/WiKira/hinodocs',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -92,12 +92,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/blog', label: 'Versões', position: 'left'},
         ],
       },
       footer: {
@@ -110,40 +105,35 @@ const config = {
                 label: 'Tutorial',
                 to: '/docs/intro',
               },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
+                label: 'Versões',
                 to: '/blog',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/WiKira/hinodocs',
               },
             ],
           },
+          {
+            title: 'Contato',
+            items: [
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/hinosistemas/',
+              },
+              {
+                label: 'Site',
+                href: 'https://www.hinosistemas.com.br',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/hinosistemasdegestao/',
+              },
+            ],
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Hino Sistemas. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

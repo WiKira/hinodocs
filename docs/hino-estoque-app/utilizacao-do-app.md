@@ -22,22 +22,26 @@ Quer saber como instalar o aplicativo Hino Estoque? [**Clique aqui**](download-c
 Quer saber como cadastrar um colaborador para uso do aplicativo? [**Clique aqui**](configuracoes-previas.md)!
 :::
 
+---
+
 [Separar O.P](separar-op.md)
 
 [Apontamentos](apontamento-app.md)
 
-[Hist. Transf. O.P]()
+[Hist. Transf. O.P](../intro.md)
 
-[Detalhar produto]()
+[Detalhar produto](../intro.md)
 
-[Inventário]()
+[Inventário](../intro.md)
 
-[Consulta Saldo]()
+[Consulta Saldo](../intro.md)
 
-[Transf. Estoque]()
+[Transf. Estoque](../intro.md)
 
-[Transf. End. Estoque]()
+[Transf. End. Estoque](../intro.md)
 
-[Requisição de Estoque]()
+[Requisição de Estoque](../intro.md)
 
-[Solic. Manutenção]()
+[Solic. Manutenção](../intro.md)
+
+---

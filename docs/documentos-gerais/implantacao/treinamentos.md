@@ -4,8 +4,6 @@ sidebar_position: 4
 
 # Treinamentos
 
-Proprietário: Hino Sistema
-
 ## Sobre os treinamentos
 
 Após as primeiras configurações e a importação dos dados, os consultores elaboram o cronograma para os treinamentos. Os treinamentos têm um enfoque direcionado aos processos, priorizando a compreensão das operações em vez dos módulos específicos do ERP. Isso ocorre porque a execução de um processo geralmente envolve a interação com vários módulos, agilizando a absorção do conhecimento pelos colaboradores e tornando-o mais eficaz.

@@ -1,4 +1,4 @@
-# Regra de aprovação
+# Regra de Aprovação
 
 :::info
 **Modulo**: Ambiente

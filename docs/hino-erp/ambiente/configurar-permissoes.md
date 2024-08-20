@@ -35,12 +35,12 @@ Quer aprender como cadastrar locais de estoque? [**Clique Aqui!**](../estoque/ca
 1. Os processos operacionais devem estar cadastrados.
 
 :::tip
-Quer aprender como cadastrar processos? [**Clique Aqui!**]()
+Quer aprender como cadastrar processos? [**Clique Aqui!**](../../intro.md)
 :::
 
 1. As tabelas de preços devem estar cadastradas.
 :::tip
-Quer aprender como cadastrar tabela de preço? [**Clique Aqui!**]()
+Quer aprender como cadastrar tabela de preço? [**Clique Aqui!**](../../intro.md)
 :::
 :::
 
@@ -48,7 +48,7 @@ Quer aprender como cadastrar tabela de preço? [**Clique Aqui!**]()
 
 As permissões de usuários em um sistema ERP (Enterprise Resource Planning - Planejamento de Recursos Empresariais) são atribuições de acesso e autoridade que determinam o que cada usuário pode fazer dentro do sistema. Essas permissões são essenciais para garantir a segurança dos dados, controlar o acesso às funcionalidades e informações, e assegurar que cada usuário tenha apenas a capacidade de realizar as tarefas pertinentes às suas responsabilidades e papéis dentro da organização.
 
-## Como criar Permissões
+## Como Criar Permissões
 
 **Passo 1: Acesse o módulo ‘Ambiente’**
 
@@ -142,3 +142,5 @@ As permissões do sistema seguem um esquema de árvore e com isso é possível d
 - Após definir todas as configurações para o grupo, clique em salvar. A janela irá fechar e as permissões estarão prontas.
 
 <ReactPlayer controls url='/videos/ambiente/configurar-permissoes-9.mp4'/>
+
+---

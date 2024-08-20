@@ -1,17 +1,16 @@
-# Como incluir|consultar o e-mail cadastrado no parâmetro
+# E-mail Cadastrado no Parâmetro
 
-👉 Clique em Menu 
+Clique em Menu.
 
-👉 Clique em Manutenção 
+Clique em Manutenção.
 
-**ENTRADA 1:**  Clique em Parâmetros 
+Clique em Parâmetros.
 
-O e-mail informado nos parâmetros é padrão. Se não houver nenhum outro vínculo ou subdivisão que estabeleça critérios específicos para o envio de e-mails de ordens de serviço, o sistema utilizará esse e-mail padrão
+O e-mail informado nos parâmetros é padrão. Se não houver nenhum outro vínculo ou subdivisão que estabeleça critérios específicos para o envio de e-mails de ordens de serviço, o sistema utilizará esse e-mail padrão.
 
-👉 Selecione o parâmetro e clique em editar 
+Selecione o parâmetro e clique em editar.
 
 ![incluir-consultar-email-parametro](./img/incluir-consultar-email-parametro/incluir-consultar-email-parametro.png)
-
 
 **1 Verificação:**
 
@@ -29,4 +28,6 @@ O e-mail informado nos parâmetros é padrão. Se não houver nenhum outro vínc
 
 ![incluir-consultar-email-parametro-2](./img/incluir-consultar-email-parametro/incluir-consultar-email-parametro-2.png)
 
-Clique em salvar (F10)
+Clique em salvar (F10).
+
+---

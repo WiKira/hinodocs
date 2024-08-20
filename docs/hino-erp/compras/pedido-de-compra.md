@@ -21,4 +21,6 @@ A tela com todos os pedidos de compras nas diversas situações será exibida.
 
 ![pedido-de-compra-1](./img/pedido-de-compra/pedido-de-compra-1.png)
 
-Clique em ‘NOVO’ para realizar um novo pedido
+Clique em ‘NOVO’ para realizar um novo pedido.
+
+---

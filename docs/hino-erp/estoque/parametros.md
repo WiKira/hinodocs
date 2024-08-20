@@ -20,7 +20,7 @@ Quer aprender sobre permissões? [**Clique Aqui!**](../ambiente/configurar-permi
 
 Os parâmetros de estoque não são definições complexas, mas sim configurações que determinam como o sistema deve processar os dados em resposta às ações dos colaboradores.
 
-## Acessando os parâmetros
+## Acessando os Parâmetros
 
 1. **Acesse o módulo de ‘Estoque’.**
 - Clique no menu lateral esquerdo e em seguida clique em ‘Estoque’.
@@ -67,7 +67,7 @@ Quer aprender sobre permissões? [**Clique Aqui!**](../ambiente/configurar-permi
 - **Exibe personalizados de produto?** Se marcado, caso exista campos personalizados criados no cadastro de produto, esses campos serão mostrados na tela do saldo de estoque.
 
 :::tip
-Quer aprender sobre Campos Personalizados? [**Clique Aqui!**]()
+Quer aprender sobre Campos Personalizados? [**Clique Aqui!**](../../intro.md)
 :::
 
 - **Requisição pelo login?** Se marcado, o usuário responsável por aprovar requisições precisa ter o cadastro de login associado ao cadastro de colaboradores
@@ -81,7 +81,6 @@ Quer aprender sobre Cadastro de Colaboradores? [**Clique Aqui!**](../gerais/cola
 - **Calcula médio movto(Compras).** Se marcado essa opção vai fazer com que o sistema calcule o preço médio dos produtos a cada entrada de compra.
 - **Valida flag ‘Rastreabilidade’ cadastro de produto.** Se marcado essa opção, o sistema vai validar se no cadastro do produto na aba ‘**PCP**’ está marcado ‘**Rastreabilidade**’. A rastreabilidade é responsável por gerar ‘**Lotes**’ para o produto e sendo assim o sistema irá validar se existem ‘**Lotes**’.
 
-1. **Salvar os parâmetros criados**
 - Após realizar as configurações desejadas, clique em salvar.
 
 ![parametros-6](./img/parametros/parametros-6.png)

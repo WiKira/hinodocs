@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # Aderência
 
-Proprietário: Hino Sistema
-
 ## Sobre a aderência do ERP
 
 Durante as reuniões de aderência, os consultores realizam visitas estratégicas à empresa para interagir com os responsáveis e colaboradores de diferentes setores. Esse encontro inicial é fundamental, pois permite aos consultores questionar e compreender profundamente os processos existentes na organização, bem como conhecer as particularidades e peculiaridades específicas de cada departamento.

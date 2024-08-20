@@ -3,7 +3,7 @@ sidebar_position: 6
 ---
 import ReactPlayer from 'react-player'
 
-# Procedimento para atualizações
+# Procedimento para Atualizações
 
 :::info
 **Modulo**: Documentacao Geral
@@ -21,7 +21,7 @@ import ReactPlayer from 'react-player'
 
 As atualizações automáticas são implementadas sempre que uma nova versão está disponível para o sistema. Essas atualizações visam aprimorar a performance, corrigir falhas, introduzir novas funcionalidades e, até mesmo, incorporar personalizações sob medida. Ao manter o software atualizado, a empresa pode garantir não apenas a estabilidade do sistema, mas também usufruir das mais recentes inovações e aprimoramentos desenvolvidos pela equipe responsável pelo software.
 
-## Procedimento em caso de atualização
+## Procedimento de Atualização
 
 **Passo 1: Confirmando a atualização**
 
@@ -60,3 +60,5 @@ Após isso a atualização será bem sucedida. Feche o console ao apertar qualqu
 :::tip
 Não sabe como realizar o acesso? [**Clique Aqui!**](./acessando-o-hino.md)
 :::
+
+---

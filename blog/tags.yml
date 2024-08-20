@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+atualizacao:
+  label: Atualizacao
+  permalink: /Atualizacao
+  description: Atualização
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+versao:
+  label: Versão
+  permalink: /versao
+  description: Versão
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+1.10.25:
+  label: '1.10.25'
+  permalink: /1-10-25
+  description: '1.10.25'
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+hinoerp:
+  label: Hino ERP
+  permalink: /hino-erp
+  description: Hino ERP

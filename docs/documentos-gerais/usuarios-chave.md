@@ -28,3 +28,5 @@ Identificar e designar um usuário controlador dentro de uma empresa durante a i
     - Ao compreender as necessidades e preocupações dos usuários finais, o usuário controlador pode influenciar positivamente a aceitação do sistema. Ele oferece suporte, responde dúvidas e incentiva a adesão ao ERP, tornando a transição mais suave e eficaz.
 
 Em resumo, o usuário controlador desempenha um papel vital na integração bem-sucedida do sistema ERP, garantindo a colaboração entre as equipes internas e externas, supervisionando o progresso, resolvendo conflitos e sendo o ponto de referência para eventuais problemas ou necessidades durante todo o processo de implementação e uso do ERP na empresa.
+
+---

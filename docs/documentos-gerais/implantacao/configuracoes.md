@@ -4,8 +4,6 @@ sidebar_position: 3
 
 # Configurações
 
-Proprietário: Hino Sistema
-
 ## Sobre as primeiras configurações
 
 Após o planejamento entre os consultores e o time, é o momento de iniciar as configurações iniciais do sistema ERP. Durante essa fase, os consultores podem solicitar a importação de dados específicos para evitar uma carga significativa de trabalho manual para os colaboradores e responsáveis. Geralmente, os dados mais requisitados para importação incluem planos de contas, cadastros de produtos, registros XML de notas fiscais (tanto de entrada quanto de saída) referentes a um período determinado. Isso possibilita a configuração adequada das operações de emissão e entrada, atualização dos saldos dos produtos, estabelecimento de layouts de boletos, etiquetas e outras informações pertinentes.

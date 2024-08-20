@@ -1,5 +1,13 @@
 # Configurações
 
+:::info
+**Modulo**: Integrações
+
+**Objetivo**: Capacitar o usuário para a instalação e utilização da integração com o Pieta.
+:::
+
+---
+
 O sistema utiliza-se da API v2 do Pieta para realização das integrações. Mas para que isso ocorra é necessário que haja algumas configurações pré-existentes seja no Hino ou no Pieta. 
 
 ![image.png](./imgs/config-img/image.png)
@@ -84,3 +92,5 @@ Para que a O.P. seja gerada, deverá ser gerado uma estrutura para os produtos i
 Para que o funcionamento também é necessário haver os cadastros dos parâmetros de Vendas, Logística e os Locais de Estoque de Inspeção. 
 
 PS: No código e nas packages há uma tratativa específica para o CNPJ da Megacomm.
+
+---

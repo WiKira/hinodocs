@@ -1,4 +1,4 @@
-# Configuração de fluxo de caixa para operações de saída (pagamentos)
+# Configuração Fluxo de Caixa - Saídas (Pagamentos)
 
 :::info
 **Modulo**: Financeiro
@@ -55,3 +55,5 @@ Clique em salvar
 Clique em salvar novamente 
 
 ![fluxo-de-caixa-saidas-6](./img/fluxo-de-caixa-saidas/fluxo-de-caixa-saidas-6.png)
+
+---

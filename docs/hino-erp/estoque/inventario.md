@@ -30,3 +30,5 @@ Além desses, existem locais de transição, como **PROC**, **EXP**, **REV**, **
 :::tip
 Aprenda a realizar um inventário a partir da lista de seleção [**clicando aqui**](inventario-lista-selecao.md).
 :::
+
+---

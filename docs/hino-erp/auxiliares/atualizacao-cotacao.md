@@ -1,4 +1,4 @@
-# Atualização da cotação de moeda internacional
+# Atualização da Cotação de Moeda
 
 :::info
 **Modulo**: Auxiliares
@@ -17,6 +17,7 @@ Possuir o arquivo com as cotações da Moeda no Banco Central
 Aprenda a como realizar o download das cotações do Banco Central, [**clicando aqui**](download-arquivo-bacen.md).
 :::
 
+---
 
 Clique na aba “AUXILIARES” 
 
@@ -52,4 +53,6 @@ O sistema abrirá um bloco de notas mostrando quais “linhas” ou cotações f
 
 ![atualizacao-cotacao-5](./img/atualizacao-cotacao/atualizacao-cotacao-5.png)
 
-→ Após revisar o bloco de notas, você pode fechá-lo e retornar ao sistema, onde a lista de câmbio estará atualizada com as novas cotações que foram incluídas 
+→ Após revisar o bloco de notas, você pode fechá-lo e retornar ao sistema, onde a lista de câmbio estará atualizada com as novas cotações que foram incluídas.
+
+---

@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Realizando o acesso
+# Realizando o Acesso
 
 :::info
 **Modulo**: Documentos Gerais
@@ -20,7 +20,7 @@ sidebar_position: 5
 Quer aprender como cadastrar um usuário? [**Clique Aqui!**](../hino-erp/ambiente/criacao-de-usuarios.md)
 :::
 
-## Como acessar o sistema
+## Como Acessar o Sistema
 
 **Passo 1: Localize o ícone de acesso ao Hino**
 
@@ -44,3 +44,5 @@ Do contrário a entrada será bem sucedida.
 :::tip
 Quer aprender como tratar as atualizações? [**Clique Aqui!**](./atualizacao-de-tags.md)
 :::
+
+---

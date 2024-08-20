@@ -10,7 +10,7 @@
 
 Os grupos de usuários são conjuntos que categorizam usuários com base em setores ou funções dentro de uma empresa. Essa abordagem permite conceder permissões de maneira coletiva, simplificando o controle de acesso ao sistema. Ao atribuir permissões a um grupo, elas automaticamente se aplicam aos usuários nele inseridos, garantindo consistência e facilitando a gestão das autorizações conforme as demandas específicas de cada grupo.
 
-## Como cadastrar um Grupo de Usuários
+## Cadastrar Grupo de Usuários
 
 **Passo 1: Acesse o módulo ‘Ambiente’**
 

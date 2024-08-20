@@ -23,7 +23,7 @@ ___
 
 O Hino estoque mobile é uma aplicação para sistemas android que possibilita que você manipule dados do ERP através de qualquer dispositivos que possuam sistema operacional Android. Para realizar a instalação do apk, habilite seu dispositivo para realizar instalação de aplicativos de fontes desconhecidas.
 
-## Permissão para App’s de fontes desconhecidas
+## Permissão para App’s de Fontes Desconhecidas
 
 Como o aplicativo Hino Estoque não está disponível na Play Store, é necessário habilitar o dispositivo para realizar a intalação de apps de fontes desconhecidas. Não se preocupe! O aplicativo Hino Estoque é totalmente seguro. 
 
@@ -51,7 +51,7 @@ Se você estiver na versão Android 10 ou inferior siga o passo abaixo.
 
 ❗ Prontinho, o seu dispositivo já está preparado para receber o APK do Hino Estoque, caso seu dispositivo tenha a versão do Android superior a 10, em uma pesquisa rápida na internet você saberá como permitir a instalação de aplicativos  de fontes desconhecidos.
 
-## Instalação do aplicativo Hino Estoque
+## Instalação do Aplicativo Hino Estoque
 
 Após realizar o download do instalador, localize em seu dispositivo o destino do arquivo. Após localizar siga os passos abaixo para realizar a instalação.
 
@@ -76,3 +76,5 @@ Após realizar o download do instalador, localize em seu dispositivo o destino d
 ![download-configuracao-app-9](./img/download-configuracao-app/download-configuracao-app-9.png)
 
 A partir desse momento você já pode utilizar o aplicativo Hino Estoque para realizar apontamentos, transferências e mais.
+
+---

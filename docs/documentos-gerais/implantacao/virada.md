@@ -4,8 +4,6 @@ sidebar_position: 5
 
 # Virada
 
-Proprietário: Hino Sistema
-
 ## Sobre a virada do ERP
 
 Contrariando o que muitos gestores de empresas acreditam, a implementação de um ERP não se resume à ativação de todos os módulos do sistema. A verdadeira virada ocorre quando, ao término do cronograma estabelecido, todos os colaboradores estão desempenhando suas funções dentro do novo sistema. Este processo é gradual e sequencial, ganhando consistência à medida que cada treinamento proporciona aos colaboradores a confiança necessária para explorar o potencial dessa ferramenta inovadora.

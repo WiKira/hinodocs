@@ -1,11 +1,11 @@
 import ReactPlayer from 'react-player'
 
-# Desfazer um ajuste de saldo
+# Estornar um Ajuste de Saldo
 
 :::info
 **Modulo**: Estoque
 
-**Objetivo**: Desfazer ajuste de estoque
+**Objetivo**: Estornar um ajuste de estoque realizado incorretamente.
 :::
 
 :::danger

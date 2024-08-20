@@ -1,6 +1,6 @@
 import ReactPlayer from 'react-player'
 
-# Como realizar o inventário - Lista de seleção
+# Realizar Inventário - Lista de Seleção
 
 Uma das formas mais comuns de realizar um inventário é através da lista de seleção. Lista de seleção por que você consegue selecionar de acordo com os critérios desejados os produtos que você deseja inventáriar.
 
@@ -8,7 +8,7 @@ Lembre-se de que o objetivo principal do inventário é inserir no sistema o sal
 
 Após realizar o inventário, garanta através dos processos o controle do saldo de estoque para que o esforço empreendido na tarefa de realizalção das contagens não seja invão.
 
-## Como realizar o inventário
+## Como Realizar o Inventário
 
 Clique em Menu → Estoque → Inventário
 

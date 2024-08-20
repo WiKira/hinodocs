@@ -1,4 +1,4 @@
-# Terminal de apontamento de produção
+# Terminal de Apontamento de Produção
 
 :::info
 **Modulo**: Produção
@@ -131,3 +131,5 @@ Em sequência será necessário informar peças boas, refugos, retrabalho etc…
 Após realizar o apontamento, na tela de acompanhamento a ordem de produção é atualizada para FINALIZADO↓
 
 ![terminal-apontamento-producao-22](./img/terminal-apontamento-producao/terminal-apontamento-producao-22.png)
+
+---

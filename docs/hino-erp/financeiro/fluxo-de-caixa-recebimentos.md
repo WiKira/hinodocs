@@ -1,4 +1,4 @@
-# Configuração de fluxo de caixa para operações de entrada (recebimento)
+# Configuração Fluxo de Caixa - Entradas (Recebimentos)
 
 :::info
 **Modulo**: Financeiro
@@ -55,3 +55,5 @@ Clique em salvar
 Clique em salvar novamente 
 
 ![fluxo-de-caixa-recebimentos-6](./img/fluxo-de-caixa-recebimentos/fluxo-de-caixa-recebimentos-6.png)
+
+---

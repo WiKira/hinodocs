@@ -34,7 +34,7 @@ Verifique se a classe do equipamento está informada no tipo de manutenção par
 
 Durante nossa revisão dos parâmetros do módulo de manutenção, identificamos um problema relacionado ao envio de e-mails automáticos. Ao abrir uma solicitação de ordem de produção, ao aprova-la o sistema não estava disparando o e-mail automaticamente como esperado, embora os e-mails estivessem configurados corretamente para cada tipo de manutenção. 
 
-**INTRODUÇÃO:**
+**Introdução:**
 No módulo de manutenção do sistema, quando apenas um e-mail está vinculado aos parâmetros, todas as ordens de produção geradas enviarão notificações para esse e-mail. No entanto, se a empresa desejar enviar e-mails para responsáveis diferentes, conforme o tipo de manutenção, é essencial vincular cada tipo de manutenção ao e-mail correspondente do responsável. Além disso, ao utilizar essa função, é necessário também vincular as classes de equipamentos. Sem as classes cadastradas para o tipo de manutenção específico, o sistema não enviará e-mails automaticamente
 
 Clique em Hino
@@ -72,3 +72,5 @@ O sistema irá automaticamente disparar um e-mail para o responsável que estive
 (Caminho: Hino >> Manutenção >> Ordem de serviço >> O.S.) 
 
 ![solicitacao-ordem-servico-4](./img/solicitacao-ordem-servico/solicitacao-ordem-servico-4.png)
+
+---

@@ -69,3 +69,5 @@ O sistema irá solicitar a confirmação dos dados digitados, se estiver tudo ce
 O aplicativo trará um resumo dos itens que foram transferidos aperte em OK.
 
 Com isso a transferência será concluída.
+
+---

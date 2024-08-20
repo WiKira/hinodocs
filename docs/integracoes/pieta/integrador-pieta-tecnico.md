@@ -1,5 +1,13 @@
 # Técnico
 
+:::info
+**Modulo**: Integrações
+
+**Objetivo**: Capacitar o usuário para a instalação e utilização da integração com o Pieta.
+:::
+
+---
+
 Para a atualização de status e/ou informações de pagamento, o sistema utiliza-se da tabela INPEDIDOALT, o qual possuirá dados sobre o pedido de origem e destino, e as tratativas do que será alterado via as colunas “CHAVE” e “VALOR”.
 
 Atualmente há tratativas para 2 chaves, sendo elas, STATUS e PAGAMENTO.
@@ -34,3 +42,5 @@ Sendo o status os definidos pela API do Pieta, e atualmente sendo disponibilizad
 'aguardando envio', 'pagamento enviado', 'pagamento recebido', 'pagamento cancelado’
 
 E os Attachments, podem possuir no máximo 5 arquivos vinculados.
+
+---

@@ -1,10 +1,12 @@
-# Como consultar os e-mails e classes vinculados aos tipos de manutenção
+# E-mails e Classes Vinculados aos Tipos de Manutenção
 
 :::info
 **Modulo**: Manutenção
 
 **Objetivo**: Capacitar o usuário para instruí-lo quanto às classificações dos produtos no ERP
 :::
+
+---
 
 Clique em Menu 
 
@@ -34,3 +36,5 @@ Caso a classe do seu equipamento já esteja vinculada ao tipo de manutenção, v
 Precisa incluir a classe do equipamento no tipo de manutenção? Clique aqui
 [Como vincular a classe de um equipamento em um tipo de manutenção ](vinculo-classe-equipamento-tipo-manutencao.md)
 :::
+
+---

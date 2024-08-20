@@ -13,3 +13,5 @@ import ReactPlayer from 'react-player'
 <ReactPlayer playing controls url='/videos/estoque/InventLista4.mp4'/>
 
 <ReactPlayer playing controls url='/videos/estoque/InventLista5.mp4'/>
+
+---

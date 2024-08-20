@@ -1,4 +1,4 @@
-# Configuração de fluxo de caixa para entradas e saídas não configuradas
+# Configuração Fluxo de Caixa - Entradas e Saídas Não Configuradas
 
 :::info
 **Modulo**: Financeiro
@@ -61,3 +61,5 @@ Isso facilita a identificação das entradas e saídas, permitindo que você rap
 - **Para acerto das contas de fluxo de caixa de entrada**: Consulte o manual destinado às entradas. Ele detalha os procedimentos para adicionar ou ajustar informações relacionadas às entradas no fluxo de caixa.
 
 [Configuração de fluxo de caixa para operações de entrada (recebimento)](fluxo-de-caixa-recebimentos.md)
+
+---

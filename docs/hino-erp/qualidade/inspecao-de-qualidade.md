@@ -1,6 +1,6 @@
 # Inspeção de Qualidade
 
-### Criando o plano de inspeção
+## Criando Plano de Inspeção
 
 :::info
 **Modulo**: Produção
@@ -13,6 +13,8 @@
 
 1. O produto deve ter rastreabilidade marcada (Lote)
 :::
+
+---
 
 O plano de inspeção é criado no módulo de qualidade. Nessa aba, temos as opções de criar os planos de RECEBIMENTO, TERCEIRO, PRODUÇÃO, PRODUÇÃO POR ROTINA, PRODUÇÃO POR OPERAÇÃO, RECEBIMENTO 200% e PRODUÇÃO 200%.
 
@@ -115,18 +117,20 @@ Uma sequência de inspeção **VERDADEIRO OU FALSO**  ficará então da seguint
 
 ![inspecao-de-qualidade-17](./img/inspecao-de-qualidade/inspecao-de-qualidade-17.jpg)
 
-# Visualizando o plano de inspeção
+### Visualizando o Plano de Inspeção
 
 Ao criar todas as sequências **DIMENSIONAIS** e **VERDADEIRO OU FALSO**, nosso plano ficará da seguinte maneira.
 
 ![inspecao-de-qualidade-18](./img/inspecao-de-qualidade/inspecao-de-qualidade-18.jpg)
 
-# Aprovando plano de inspeção
+### Aprovando Plano de Inspeção
 
 A única coisa que falta agora é aprovar o plano. Para isso vamos em anexo, aprovar.
 
 ![inspecao-de-qualidade-19](./img/inspecao-de-qualidade/inspecao-de-qualidade-19.gif)
 
-# Considerações finais
+### Considerações Finais
 
 Um plano de inspeção pode ser utilizado para facilitar a criação de outros planos, restando apenas a edição dos parâmetros. Fica a critério do responsável sobre quais tipos de planos utilizar e qual tipo de plano utilizar.
+
+---

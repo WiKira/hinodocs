@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Hino Sistemas de Gestão LTDA - Documentação técnica do Software
+# Hino Sistemas de Gestão LTDA - Documentação Técnica do Software
 
 Proprietário: Hino Sistema
 
@@ -265,3 +265,5 @@ Este documento é apenas um resumo da documentação original arquivada na bibli
 ### Conclusão
 
 O Hino ERP oferece uma solução robusta e adaptável para o setor de rações, ajudando as empresas a alcançarem e manterem conformidade com as exigências da ISO 22000 e do MAPA. Com foco na rastreabilidade e na gestão eficaz da cadeia de suprimentos, o sistema não apenas otimiza os processos de produção, mas também fortalece a segurança e qualidade dos produtos alimentícios para animais. Para mais informações sobre como o Hino ERP pode beneficiar seu negócio no setor de rações, entre em contato conosco através do site [www.hinosistemas.com.br](http://www.hinosistemas.com.br/) ou pelo telefone (19) 3090-1393.
+
+---

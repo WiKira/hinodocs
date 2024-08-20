@@ -1,4 +1,4 @@
-# Cotação de materiais | Compras
+# Cotação de Materiais
 
 :::info
 **Modulo**: Compras
@@ -13,6 +13,10 @@
 Para realizar a inclusão de solicitação o utilizador precisa estar em uma **REGRA DE APROVAÇÃO**. Para ver como criar uma regra de aprovação [clique aqui](https://www.notion.so/Regra-de-aprova-o-dde30d4c4beb45bfb26328a61daf5e56?pvs=21)
 :::
 
+---
+
 ## Solicitação de Compra
 
 Primeiro vamos acessar o sub-módulo | Solicitação de compra - Nesta etapa iremos criar uma nova solicitação de compras como no vídeo abaixo.
+
+---

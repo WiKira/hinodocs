@@ -1,6 +1,6 @@
 import ReactPlayer from 'react-player'
 
-# Fazer um ajuste de saldo
+# Realizar um Ajuste de Saldo
 
 :::info
 **Modulo**: Estoque
@@ -11,7 +11,7 @@ import ReactPlayer from 'react-player'
 :::danger
 **Requisitos**
 
-1 - Em ‘**Tipo da Movimentação**’ os movimentos de ‘**Entrada de Acerto do Estoque**’ e **‘Saída de Acerto do Estoque**’ devem estar cadastrados
+Em ‘**Tipo da Movimentação**’ os movimentos de ‘**Entrada de Acerto do Estoque**’ e **‘Saída de Acerto do Estoque**’ devem estar cadastrados
 :::
 
 :::tip

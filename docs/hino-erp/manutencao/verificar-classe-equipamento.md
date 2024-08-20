@@ -1,4 +1,4 @@
-# Como consultar a classe de um equipamento
+# Classe de Equipamento
 
 :::info
 **Modulo**: Manutenção
@@ -27,3 +27,5 @@ O sistema mostrará a ficha geral do equipamento, onde você precisará verifica
 Anote a classe do equipamento e feche a aba clicando no “x” 
 
 ![verificar-classe-equipamento-3](./img/verificar-classe-equipamento/verificar-classe-equipamento-3.png)
+
+---

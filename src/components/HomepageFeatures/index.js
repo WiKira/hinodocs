@@ -4,32 +4,50 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Soluções Corporativas',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        A <code>Hino Sistemas</code> é uma empresa que atua em desenvolvimento 
+        de soluções corporativas relacionadas a desenvolvimento e consultoria, 
+        com profissionais altamente qualificados, onde desenvolvem projetos 
+        personalizados, atendendo o perfil de cada cliente de acordo com sua 
+        real necessidade.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Excelência Garantida',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Oferer um trabalho perfeito, com 100% de satisfação é mais que uma meta,
+         para nós é um objetivo, que buscamos com toda determinação a cada 
+         atendimento e a cada novo cliente.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Soluções Integradas',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Fornecendo soluções em sistema gerencial, fabril, 
+        fiscal, contábil, entre outros, através de consultoria de negócio, com 
+        acompanhamento desde a concepção do projeto até sua implantação, 
+        oferecendo treinamento adequado aos clientes e parceiros, de forma a 
+        agilizar os processos estratégicos e comerciais da empresa.
+      </>
+    ),
+  },
+  {
+    title: 'Gestão Eficiente',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Soluções de Gestão que garantem maior rentabilidade e melhores 
+        resultados para o seu negócio. Aumente sua produtividade, melhore a 
+        qualidade, reduza seus custos operacionais e tenha mais competitividade.
       </>
     ),
   },
@@ -37,7 +55,7 @@ const FeatureList = [
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>

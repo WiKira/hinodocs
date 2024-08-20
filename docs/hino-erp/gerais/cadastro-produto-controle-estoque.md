@@ -1,6 +1,6 @@
 import ReactPlayer from 'react-player'
 
-# Cadastro de produto | Controle de estoque
+# Produto e Controle de Estoque
 
 :::info
 **Modulo**: Gerais
@@ -8,13 +8,15 @@ import ReactPlayer from 'react-player'
 **Objetivo**: Definir se um produto controla ou não estoque
 :::
 
-## Como verificar se um produto controla ou não estoque?
+---
+
+## Como Verificar se um Produto Controla Estoque?
 
 Ao acessar Gerais → Produtos, no grid principal é possível verificar e também filtrar pelos produtos que controlam e não controlam estoque
 
 <ReactPlayer controls url='/videos/gerais/cadastro-produto-controle-estoque.mp4'/>
 
-## Como definir se um produto controla ou não estoque?
+## Como Definir se um Produto Controla Estoque?
 
 Para realizar a mudança, selecione o produto desejado e clique em editar. 
 
@@ -39,3 +41,5 @@ Após realizar essa definição clique em salvar.
 **Esse tipo de revisão e manutenção deve ser comum entre os cadastros para garantir que os produtos estejam cadastrados corretamente.**
 
 <ReactPlayer playing controls url='/videos/estoque/cadastro-produto-controle-estoque-1.mp4'/>
+
+---

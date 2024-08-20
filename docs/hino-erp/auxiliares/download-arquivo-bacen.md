@@ -1,4 +1,4 @@
-# Como Baixar o Arquivo em Excel das Cotações de uma Moeda no Banco Central
+# Download Cotação Moeda - BACEN
 
 :::info
 **Modulo**: Auxiliares
@@ -6,6 +6,7 @@
 **Objetivo**: Capacitar o usuário para instruí-lo quanto às classificações dos produtos no ERP
 :::
 
+---
 
 Clique na aba “AUXILIARES” 
 
@@ -43,3 +44,5 @@ Clique no arquivo CSV-2KB
 Em seguida, você fará o download do arquivo Excel com as cotações do período pesquisado. 
 
 ![download-arquivo-bacen-5](./img/download-arquivo-bacen/download-arquivo-bacen-5.png)
+
+---

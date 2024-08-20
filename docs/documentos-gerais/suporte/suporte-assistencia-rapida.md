@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Suporte por Assistência Rápida do Windows
+# Suporte via Assistência Rápida do Windows
 
 :::info
 **Modulo**: Documentos Gerais
@@ -45,3 +45,5 @@ O Assistência Rápida do Windows é uma ferramenta que permite que um usuário 
 Certifique-se sempre de estar concedendo acesso remoto a pessoas confiáveis e somente quando necessário. Após a resolução do problema, encerre a sessão de assistência remota para garantir a segurança do seu sistema.
 
 Esse procedimento usa a ferramenta Assistência Remota do Windows, que pode ser útil para suporte remoto entre usuários que estão na mesma rede ou conectados via internet, desde que ambos estejam usando o Windows.
+
+---

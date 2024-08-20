@@ -4,8 +4,6 @@ sidebar_position: 2
 
 # Planejamento
 
-Proprietário: Hino Sistema
-
 ## Sobre o planejamento de implantação
 
 Após a conclusão do processo de aderência, os consultores realizam o planejamento detalhado para a implantação da ferramenta. Esse planejamento é uma colaboração entre os consultores e os responsáveis da empresa, tendo como objetivo a apresentação dos principais módulos selecionados com base no processo de aderência. Esse passo é crucial para garantir uma transição eficaz.

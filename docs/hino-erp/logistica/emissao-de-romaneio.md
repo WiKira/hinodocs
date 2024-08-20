@@ -1,4 +1,4 @@
-# Emissão de romaneio
+# Emissão de Romaneio
 
 :::info
 **Modulo**: Logística
@@ -10,7 +10,7 @@ ___
 
 O romaneio é um documento fundamental para empresas que realizam operações logísticas e gestão de estoque. Sua principal função é detalhar a lista de itens que serão separados e enviados em um pedido.
 
-**Fluxo:** 👉 **Clique em Menu → Logística → Romaneio** 
+**Fluxo:** Clique em Menu → Logística → Romaneio 
 
 Clique em novo(F2)  
 
@@ -51,3 +51,5 @@ Clique em salvar (F10)
 O sistema exibirá o romaneio de forma simplificada e informará a situação do saldo de estoque em relação à separação dos produtos do pedido. 
 
 ![emissao-de-romaneio-4](./img/emissao-de-romaneio/emissao-de-romaneio-4.png)
+
+---

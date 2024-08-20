@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Suporte por Any Desk
+# Suporte via AnyDesk
 
 :::info
 **Modulo**: Documentos Gerais

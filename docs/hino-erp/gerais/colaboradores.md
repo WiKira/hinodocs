@@ -18,7 +18,7 @@ Quer aprender sobre o Permissões ? [**Clique Aqui!**](../ambiente/configurar-pe
 
 ---
 
-## Como cadastrar colaboradores
+## Cadastrar Colaboradores
 
 - Na aba ‘Gerais’, clique em colaboradores
 
@@ -82,3 +82,5 @@ Não marque a opção ‘**Aponta Mobile**’ e não clique no botão ‘**Gerar
 Caso queira editar um cadastro já existente, basta clicar no registro deseja e em seguida clicar em **editar**
 
 ![colaboradores-8](./img/colaboradores/colaboradores-8.png)
+
+---
