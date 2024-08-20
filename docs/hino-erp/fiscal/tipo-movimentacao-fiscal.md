@@ -1,0 +1,844 @@
+# Tipo de movimentação fiscal
+
+:::info
+**Modulo**: Fiscal
+
+**Objetivo**: Assegurar o registro completo e preciso de todos os movimentos para garantir que o sistema registre de maneira adequada as entradas, saídas e movimentações dos produtos e serviços no kardex.
+:::
+
+:::tip
+Quer aprender sobre o Kardex? Clique Aqui!
+:::
+___
+
+## Sobre o Tipo da Movimentação
+
+Os "tipos de movimentação fiscal" são pré-cadastros essenciais no ERP. Esses registros antecipados são fundamentais para o software, pois permitem que o livro de movimentações (kardex) seja atualizado de forma precisa. Eles classificam e categorizam as diferentes operações, como entradas, saídas, transferências e ajustes, garantindo a rastreabilidade completa da história do produto. O cadastro detalhado dos tipos de movimentações fiscais é crucial para habilitar a execução eficiente de todas essas operações no sistema.
+
+:::warning
+Em caso de ausência de um movimento necessário para registrar no livro kardex, o software exibirá um aviso específico. Este alerta informará ao colaborador qual tipo de movimento não está cadastrado, permitindo que o mesmo proceda com o cadastro necessário para garantir o registro adequado no sistema.
+:::
+
+**INTRODUÇÃO:**
+
+Os tipos de movimentos fiscais geralmente se referem aos registros e transações relacionadas a impostos e obrigações fiscais de uma empresa ou entidade. Esses movimentos são fundamentais para garantir a conformidade com a legislação tributária e para a manutenção de uma gestão financeira saudável.
+Movimentos fiscais englobam todas as operações e processos relacionados à gestão tributária de uma empresa. Isso inclui a emissão e o controle de notas fiscais, o cálculo e o pagamento de tributos, a apuração de impostos devidos, o envio de declarações fiscais aos órgãos competentes, e o acompanhamento de possíveis mudanças na legislação tributária.
+
+
+📢 **ABAIXO TEMOS OS MOVIMENTOS COMUNS QUE NORMALMENTE JÁ VEM CADASTRADO NO SISTEMA COM UMA BREVE EXPLICAÇÃO.**
+
+- **ABT - ABATIMENTO**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Indica uma entrada de abatimento.
+    - **Classificação:** Faturamento
+    - **Descrição da Classificação:** Relacionado a descontos aplicados em faturamento.
+- **ASE - APONTAMENTO DE SUCATA ESPECIFICO - OF**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Refere-se a um apontamento específico de sucata em oficina.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Outras entradas não especificadas em categorias principais.
+- **ASG - APONTAMENTO DE SUCATA GENERICO (MES)**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Apontamento genérico de sucata (mês).
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entradas diversas não especificadas em categorias principais.
+- **BTB - BTB - BACK TO BACK**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de operação back-to-back.
+    - **Classificação:** Faturamento
+    - **Descrição da Classificação:** Relacionado a vendas com entrega direta do fornecedor ao cliente.
+- **DM - DEVOLUCAO DE MATERIAIS CONSUMIDOS**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de devolução de materiais consumidos.
+    - **Classificação:** Consumo
+    - **Descrição da Classificação:** Entrada de materiais devolvidos que foram consumidos.
+- **DSC - DESCONTO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída com aplicação de desconto.
+    - **Classificação:** Compras
+    - **Descrição da Classificação:** Saída de mercadorias com desconto aplicado.
+- **EAC - ENTRADA DE PRODUTO ACABADO**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de produto acabado.
+    - **Classificação:** Produção
+    - **Descrição da Classificação:** Entrada de produtos finalizados no processo produtivo.
+- **EAE - ENTRADA DE ACERTO DO ESTOQUE**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada para acerto de estoque.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada utilizada para ajustes no estoque por motivos diversos.
+- **EAS - ENTRADA DE APONTAMENTO DE SOBRAS**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada relacionada a apontamento de sobras.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada para registro de sobras de produção ou operação.
+- **EAV - ENTRADA DE ACERTO DE VALORES**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada para acerto de valores.
+    - **Classificação:** Compras
+    - **Descrição da Classificação:** Entrada para ajuste de valores relacionados a operações de compra.
+- **EBV - ENTRADA DE BAIXA DE VALORES**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada para baixa de valores.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada utilizada para registrar a baixa de valores de alguma natureza.
+- **EC - ENTRADA DE COMPRA**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada relacionada a compra de mercadorias.
+    - **Classificação:** Compras
+    - **Descrição da Classificação:** Entrada de mercadorias adquiridas para revenda ou uso na empresa.
+- **ECC - ENTRADA DE COMPRA COMUNICACOES**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de compras relacionadas a comunicações.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de mercadorias compradas para uso em comunicações.
+- **ECE - ENTRADA DE COMPRA ENERGIA ELETRICA**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de compras de energia elétrica.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de mercadorias compradas para uso em energia elétrica.
+- **ECI - ENTRADA COMPLEMENTAR DE IMPORTACAO**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada complementar de importação.
+    - **Classificação:** Compras
+    - **Descrição da Classificação:** Entrada de mercadorias complementares importadas.
+- **ECM - ENTRADA DA MATERIA APLICADA**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de matéria aplicada.
+    - **Classificação:** Compras
+    - **Descrição da Classificação:** Entrada de materiais utilizados ou aplicados em processos específicos.
+- **ECP - ENTRADA COMPLEMENTAR DE PREÇO**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada complementar de preço.
+    - **Classificação:** Compras
+    - **Descrição da Classificação:** Entrada de mercadorias com ajuste complementar de preço.
+- **ED - ENTRADAS DIVERSAS**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entradas diversas.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entradas que não se enquadram nas categorias principais.
+- **EDC - ENTRADA - DEVOLUÇÃO DE COMPRAS**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de devolução de compras.
+    - **Classificação:** Compras
+    - **Descrição da Classificação:** Devolução de mercadorias adquiridas anteriormente.
+- **EDF - ENTRADA DE DIVERGENCIA FORNECEDOR**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de divergência de fornecedor.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada para ajuste de divergências identificadas com fornecedores.
+- **EDM - DEVOLUCAO DE MATERIAIS - PRODUCAO**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Devolução de materiais da produção.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Devolução de materiais utilizados no processo produtivo.
+- **EDR - ENTRADA DE REFUGO**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de refugo.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de materiais ou produtos considerados refugo.
+- **EDT - ENTRADA DE INVENTARIO DE PROCESSO**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de inventário de processo.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada para registro de inventário de processo.
+- **EDV - ENTRADA DE DEVOLUÇÃO**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de devolução.
+    - **Classificação:** Faturamento
+    - **Descrição da Classificação:** Devolução de mercadorias vendidas anteriormente.
+- **EEF - ENTRADA DE ESTOQUE DE TERCEIRO - FILIAL**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de estoque de terceiros em filial.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de estoque de propriedade de terceiros em uma filial.
+- **EET - ENTRADA DE ESTOQUE DE TERCEIRO**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de estoque de terceiros.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de estoque de propriedade de terceiros.
+- **EFR - ENTRADA DE FRETES**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de fretes.
+    - **Classificação:** Frete
+    - **Descrição da Classificação:** Entrada relacionada a custos de fretes incorridos.
+- **EFT - ENTRADA DE FRETE**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de frete.
+    - **Classificação:** Frete
+    - **Descrição da Classificação:** Entrada relacionada a custos específicos de fretes.
+- **EIE - ENTRADA INDUSTRIALIZACAO POR ENCOMENDA**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de industrialização por encomenda.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada relacionada a processos industriais sob encomenda.
+- **EII - ENTRADA PARA INDUSTRIALIZACAO**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada para industrialização.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada relacionada a processos de industrialização.
+- **EIQ - ENTRADA DE INSPEÇÃO**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de inspeção.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada para inspeção de produtos ou materiais recebidos.
+- **EIT - ENTRADA INDUSTRIALIZACAO EFET.P/TERCEIRO**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de industrialização efetuada para terceiro.
+    - **Classificação:** Compras
+    - **Descrição da Classificação:** Entrada relacionada a processos industriais efetuados para terceiros.
+- **EIV - ENTRADA DE INVENTARIO DE ESTOQUE**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de inventário de estoque.
+    - **Classificação:** Inventário
+    - **Descrição da Classificação:** Entrada para registro de inventário de estoque.
+- **EM - ENTRADA DE MATERIAIS - ESTOQUE**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de materiais em estoque.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de materiais diversos no estoque.
+- **EME - ENTRADA DE EMPENHO DE ESTOQUE**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de empenho de estoque.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada relacionada a empenhos de materiais em estoque.
+- **EO2 - OUTRAS ENTRADAS - NFE**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Outras entradas via nota fiscal eletrônica.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entradas diversas registradas por meio de nota fiscal eletrônica.
+- **EOL - ENTRADA REMESSA LOCACAO**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de remessa para locação.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de produtos enviados para locação.
+- **EOR - ENTRADA OUTROS RETORNOS-N.BAIXA ESTOQUE**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de outros retornos com nota baixa de estoque.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de retornos diversos com baixa de estoque.
+- **EOT - ENTRADA OPERACAO TRIANGULAR SIMPLES REME**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de operação triangular simples - remessa.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada relacionada a operações triangulares simples de remessa.
+- **EOU - OUTRAS ENTRADAS**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Outras entradas.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entradas diversas não especificadas em categorias principais.
+- **EP - ENTRADA NO PROCESSO DE FABRICACAO**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada no processo de fabricação.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada relacionada ao início de processo produtivo.
+- **ERE - ENTRADA DE RESERVA DE ESTOQUE**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de reserva de estoque.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada para reserva de materiais em estoque.
+- **ERI - ENTRADA DE RETORNO SEM INDUSTRIALIZACAO**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de retorno sem industrialização.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de retornos sem terem passado por processo industrial.
+- **ERL - ENTRADA DE RATEIO DE LOTE**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de rateio de lote.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada para rateio de lotes de produtos ou materiais.
+- **ERS - ENTRADA DE RETORNO SIMBOLICO INDUSTR.**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de retorno simbólico industrial.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de retornos simbólicos de produtos industriais.
+- **ESI - SALDO INICIAL**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de saldo inicial.
+    - **Classificação:** Saldo Inicial
+    - **Descrição da Classificação:** Entrada para registro inicial de saldo.
+- **ESN - ENTRADA DE SOLICITAÇÃO DE NOTA**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de solicitação de nota.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada relacionada a solicitações de emissão de notas.
+- **EST - ENTRADA DE SERVICO DE TERCEIRO**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de serviço de terceiros.
+    - **Classificação:** Compras
+    - **Descrição da Classificação:** Entrada relacionada a serviços prestados por terceiros.
+- **ET - ENTRADA DE TRANSFERENCIA**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de transferência.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Entrada de transferência de produtos ou materiais.
+- **ETC - ENTRADA DE REMESSA DE TROCA EM GARANTIA**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de remessa de troca em garantia.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de remessa de produtos para troca em garantia.
+- **ETF - ENTRADA TRANSFERENCIA DA FILIAL**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de transferência entre filiais.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de produtos transferidos entre filiais.
+- **ETG - ENTRADA PARA TROCA EM GARANTIA**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada para troca em garantia.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de produtos destinados a troca por defeito.
+- **ETM - ENTRADA TRANSFERENCIA DA MATRIZ**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de transferência da matriz.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de produtos transferidos da matriz para outra localidade.
+- **ETO - ENTRADA DE TRANSF ESTOQUE PARA OF**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de transferência de estoque para oficina.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de produtos transferidos para oficina.
+- **ETR - ENTRADA DE TRANSFERENCIA DE MATERIAIS**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de transferência de materiais.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de materiais transferidos de um local para outro.
+- **ETT - ENTRADA DE TRANSFERENCIA DE TERCEIROS**
+    - **Tipo:** Entrada
+    - **Descrição do Tipo:** Entrada de transferência de terceiros.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Entrada de materiais transferidos entre empresas ou terceiros.
+- **SAC - SAIDA ESTORNO DE APONTAMENTO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída para estorno de apontamento.
+    - **Classificação:** Produção
+    - **Descrição da Classificação:** Saída para estorno de apontamento de produção.
+- **SAE - SAIDA DE ACERTO DE ESTOQUE**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída para acerto de estoque.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída utilizada para ajustes de estoque por diferentes motivos.
+- **SAV - SAIDA DE ACERTO DE VALORES**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída para acerto de valores.
+    - **Classificação:** Compras
+    - **Descrição da Classificação:** Saída utilizada para ajustes de valores relacionados a compras.
+- **SBV - SAIDA DE BAIXA DE VALORES**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída para baixa de valores.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída utilizada para baixa de valores de qualquer natureza.
+- **SC - SAIDA DE CONSUMO - INDIRETO E OUTROS**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de consumo - indireto e outros.
+    - **Classificação:** Consumo
+    - **Descrição da Classificação:** Saída de materiais ou produtos consumidos indiretamente ou diversos.
+- **SCI - SAIDA DE CONSUMO INTERNO - SUCATEAMENTO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de consumo interno - sucateamento.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de materiais destinados a sucateamento ou descarte.
+- **SCP - SAIDA FATURAMENTO COMPLEMENTO DE PRECO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de faturamento com complemento de preço.
+    - **Classificação:** Faturamento
+    - **Descrição da Classificação:** Saída de mercadorias faturadas com ajuste de preço complementar.
+- **SDF - SAIDA DE DIVERGENCIA DE FORNECEDOR**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de divergência de fornecedor.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída utilizada para ajuste de divergências identificadas com fornecedores.
+- **SDM - SAIDA DE DEVOLUCAO DE TRANSF. MATERIAIS**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de devolução de transferência de materiais.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de materiais devolvidos após transferência.
+- **SDR - SAIDA DE RETORNO DE INSPECAO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de retorno de inspeção.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de produtos ou materiais retornados após inspeção.
+- **SDV - SAIDA DE DEVOLUCAO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de devolução.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Saída de mercadorias devolvidas por clientes.
+- **SDW - SAIDA DE DEVOLUCAO DE MATERIA PRIMA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de devolução de matéria-prima.
+    - **Classificação:** Produção
+    - **Descrição da Classificação:** Saída de matéria-prima devolvida após utilização.
+- **SE2 - OUTRAS SAIDAS - NFE**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Outras saídas via nota fiscal eletrônica.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saídas diversas registradas por meio de nota fiscal eletrônica.
+- **SEI - SAIDA INDUSTRIALIZACAO POR ENCOMENDA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de industrialização por encomenda.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída relacionada a processos industriais sob encomenda.
+- **SEJ - SAIDA DE PRODUCAO CONJUNTA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de produção conjunta.
+    - **Classificação:** Produção
+    - **Descrição da Classificação:** Saída de produtos resultantes de produção conjunta.
+- **SEK - SAIDA DE VENDA DE ENERGIA ELETRICA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de venda de energia elétrica.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de venda de energia elétrica.
+- **SEM - SAIDA DE MATERIA APLICADA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de matéria aplicada.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de materiais aplicados em processos específicos.
+- **SEP - SAIDA DE DEVOLUCAO - PRECO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de devolução com ajuste de preço.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Saída de mercadorias devolvidas com ajuste de preço.
+- **SEQ - SAIDA DE INSPECAO - SELO CONTROLE**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de inspeção com selo de controle.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de produtos ou materiais liberados após inspeção com selo de controle.
+- **SER - SAIDA DE PRODUCAO PARA REPOSICAO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de produção para reposição.
+    - **Classificação:** Produção
+    - **Descrição da Classificação:** Saída de produtos destinados à reposição de estoque.
+- **SES - SAIDA DE PRODUCAO PARA INDUSTRIALIZACAO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de produção para industrialização.
+    - **Classificação:** Produção
+    - **Descrição da Classificação:** Saída de produtos destinados a processos de industrialização.
+- **SET - SAIDA DE SERVICO DE TERCEIROS**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de serviço de terceiros.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída relacionada a serviços prestados por terceiros.
+- **SEV - SAIDA DE VENDA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de venda.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Saída de mercadorias vendidas.
+- **SEW - SAIDA DE VENDA DE PRODUCAO DO ESTABELECIMENTO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de venda de produção do estabelecimento.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Saída de produtos vendidos, produzidos internamente.
+- **SEZ - SAIDA DE TRANSFERENCIA PARA ESTOQUE**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência para estoque.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos para outro estoque.
+- **SFD - SAIDA DIVERSA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída diversa.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de produtos ou materiais não enquadrados nas categorias principais.
+- **SFM - SAIDA DE MERCADORIA SUCATEADA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de mercadoria sucateada.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de mercadorias destinadas a sucateamento.
+- **SFR - SAIDA DE FRETAMENTO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de fretamento.
+    - **Classificação:** Frete
+    - **Descrição da Classificação:** Saída relacionada a custos de fretes incorridos.
+- **SFT - SAIDA DE FRETE**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de frete.
+    - **Classificação:** Frete
+    - **Descrição da Classificação:** Saída relacionada a custos específicos de fretes.
+- **SGI - SALDO DE GERAÇÃO DE IMPOSTO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saldo de geração de imposto.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída utilizada para registros de saldo de geração de impostos.
+- **SIE - SAIDA INDUSTRIALIZACAO POR ENCOMENDA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de industrialização por encomenda.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída relacionada a processos industriais sob encomenda.
+- **SII - SAIDA PARA INDUSTRIALIZACAO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída para industrialização.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída relacionada a processos de industrialização.
+- **SIV - SAIDA DE INVENTARIO DE ESTOQUE**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de inventário de estoque.
+    - **Classificação:** Inventário
+    - **Descrição da Classificação:** Saída para registro de inventário de estoque.
+- **SM - SAIDA DE MATERIAIS**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de materiais.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de materiais diversos do estoque.
+- **SME - SAIDA DE EMPENHO DE ESTOQUE**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de empenho de estoque.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída relacionada a empenhos de materiais em estoque.
+- **SOE - OUTRAS SAIDAS**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Outras saídas.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saídas diversas não especificadas em categorias principais.
+- **SDM - SAIDA DE DEVOLUCAO DE TRANSF. MATERIAIS**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de devolução de transferência de materiais.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de materiais devolvidos após transferência.
+- **SDR - SAIDA DE RETORNO DE INSPECAO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de retorno de inspeção.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de produtos ou materiais retornados após inspeção.
+- **SDV - SAIDA DE DEVOLUCAO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de devolução.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Saída de mercadorias devolvidas por clientes.
+- **SDW - SAIDA DE DEVOLUCAO DE MATERIA PRIMA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de devolução de matéria-prima.
+    - **Classificação:** Produção
+    - **Descrição da Classificação:** Saída de matéria-prima devolvida após utilização.
+- **SE2 - OUTRAS SAIDAS - NFE**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Outras saídas via nota fiscal eletrônica.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saídas diversas registradas por meio de nota fiscal eletrônica.
+- **SEI - SAIDA INDUSTRIALIZACAO POR ENCOMENDA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de industrialização por encomenda.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída relacionada a processos industriais sob encomenda.
+- **SEJ - SAIDA DE PRODUCAO CONJUNTA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de produção conjunta.
+    - **Classificação:** Produção
+    - **Descrição da Classificação:** Saída de produtos resultantes de produção conjunta.
+- **SEK - SAIDA DE VENDA DE ENERGIA ELETRICA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de venda de energia elétrica.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de venda de energia elétrica.
+- **SEM - SAIDA DE MATERIA APLICADA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de matéria aplicada.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de materiais aplicados em processos específicos.
+- **SEP - SAIDA DE DEVOLUCAO - PRECO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de devolução com ajuste de preço.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Saída de mercadorias devolvidas com ajuste de preço.
+- **SEQ - SAIDA DE INSPECAO - SELO CONTROLE**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de inspeção com selo de controle.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de produtos ou materiais liberados após inspeção com selo de controle.
+- **SER - SAIDA DE PRODUCAO PARA REPOSICAO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de produção para reposição.
+    - **Classificação:** Produção
+    - **Descrição da Classificação:** Saída de produtos destinados à reposição de estoque.
+- **SES - SAIDA DE PRODUCAO PARA INDUSTRIALIZACAO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de produção para industrialização.
+    - **Classificação:** Produção
+    - **Descrição da Classificação:** Saída de produtos destinados a processos de industrialização.
+- **SET - SAIDA DE SERVICO DE TERCEIROS**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de serviço de terceiros.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída relacionada a serviços prestados por terceiros.
+- **SEV - SAIDA DE VENDA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de venda.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Saída de mercadorias vendidas.
+- **SEW - SAIDA DE VENDA DE PRODUCAO DO ESTABELECIMENTO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de venda de produção do estabelecimento.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Saída de produtos vendidos, produzidos internamente.
+- **SEZ - SAIDA DE TRANSFERENCIA PARA ESTOQUE**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência para estoque.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos para outro estoque.
+- **SFD - SAIDA DIVERSA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída diversa.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de produtos ou materiais não enquadrados nas categorias principais.
+- **SFM - SAIDA DE MERCADORIA SUCATEADA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de mercadoria sucateada.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de mercadorias destinadas a sucateamento.
+- **SFR - SAIDA DE FRETAMENTO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de fretamento.
+    - **Classificação:** Frete
+    - **Descrição da Classificação:** Saída relacionada a custos de fretes incorridos.
+- **SFT - SAIDA DE FRETE**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de frete.
+    - **Classificação:** Frete
+    - **Descrição da Classificação:** Saída relacionada a custos específicos de fretes.
+- **SGI - SALDO DE GERAÇÃO DE IMPOSTO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saldo de geração de imposto.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída utilizada para registros de saldo de geração de impostos.
+- **SIE - SAIDA INDUSTRIALIZACAO POR ENCOMENDA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de industrialização por encomenda.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída relacionada a processos industriais sob encomenda.
+- **SII - SAIDA PARA INDUSTRIALIZACAO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída para industrialização.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída relacionada a processos de industrialização.
+- **SIV - SAIDA DE INVENTARIO DE ESTOQUE**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de inventário de estoque.
+    - **Classificação:** Inventário
+    - **Descrição da Classificação:** Saída para registro de inventário de estoque.
+- **SM - SAIDA DE MATERIAIS**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de materiais.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de materiais diversos do estoque.
+- **SME - SAIDA DE EMPENHO DE ESTOQUE**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de empenho de estoque.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída relacionada a empenhos de materiais em estoque.
+- **SOE - OUTRAS SAIDAS**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Outras saídas.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saídas diversas não especificadas em categorias principais.
+- **SP - SAIDA DO PROCESSO DE FABRICACAO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída do processo de fabricação.
+    - **Classificação:** Produção
+    - **Descrição da Classificação:** Saída de produtos após finalização do processo produtivo.
+- **SRM - SAIDA DE REMESSA PARA REVENDA**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de remessa para revenda.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Saída de produtos enviados para revenda.
+- **SSB - SAIDA DE SEMI ACABADO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de semi-acabado.
+    - **Classificação:** Produção
+    - **Descrição da Classificação:** Saída de produtos semi-acabados.
+- **SSE - SAIDA DE TRANSFERENCIA ESTOQUE ESTABELECIMENTO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência de estoque entre estabelecimentos.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos entre diferentes estabelecimentos.
+- **SSR - SAIDA DE TRANSFERENCIA ESTOQUE REPARTICAO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência de estoque para repartição.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos para repartição específica.
+- **STA - SAIDA TRANSFERENCIA ATIVO IMOBILIZADO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência de ativo imobilizado.
+    - **Classificação:** Imobilizado
+    - **Descrição da Classificação:** Saída de ativos imobilizados transferidos.
+- **STB - SAIDA TRANSFERENCIA DE BENFEITORIAS**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência de benfeitorias.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Saída de benfeitorias transferidas de um local para outro.
+- **STC - SAIDA TRANSFERENCIA CENTRALIZACAO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência para centralização.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos para centralização.
+- **STD - SAIDA TRANSFERENCIA DEPOSITO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência para depósito.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos para depósito específico.
+- **STE - SAIDA DE TRANSFERENCIA PARA ESTOQUE**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência para estoque.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos para outro estoque.
+- **STF - SAIDA TRANSFERENCIA DE MATRIZ FILIAL**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência de matriz para filial.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos da matriz para filial.
+- **STG - SAIDA TRANSFERENCIA PARA OUTROS ESTABELEC.**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência para outros estabelecimentos.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos para outros estabelecimentos.
+- **STI - SAIDA TRANSFERENCIA DE INDUSTRIALIZACAO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência para industrialização.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos para processos de industrialização.
+- **STM - SAIDA TRANSFERENCIA DA MATRIZ**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência da matriz.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos da matriz para outro local.
+- **STN - SAIDA TRANSFERENCIA DA FILIAL**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência entre filiais.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos entre filiais.
+- **STP - SAIDA TRANSFERENCIA PROCESSO PRODUTIVO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência para processo produtivo.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos para processo produtivo.
+- **STT - SAIDA TRANSFERENCIA DE TERCEIROS**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência para terceiros.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos para empresas ou terceiros.
+- **SW - SAIDA TRANSFERENCIA PARA OUTROS ESTABELECIMENTO DO MESMO TITULAR**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência para outro estabelecimento do mesmo titular.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos para outro estabelecimento do mesmo titular.
+- **SWG - SAIDA DE TRANSFERENCIA PARA GANHO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência para ganho.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos para ganho.
+- **SZE - SAIDA DE TRANSFERENCIA ESTOQUE ESTABELECIMENTO**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência de estoque entre estabelecimentos.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos entre diferentes estabelecimentos.
+- **SZZ - SAIDA DE TRANSFERENCIA ESTOQUE FILIAL**
+    - **Tipo:** Saída
+    - **Descrição do Tipo:** Saída de transferência de estoque entre filiais.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Saída de produtos transferidos entre filiais.
+- **TAM - TRANSFERENCIA DE ATIVO IMOBILIZADO**
+    - **Tipo:** Transferência
+    - **Descrição do Tipo:** Transferência de ativo imobilizado.
+    - **Classificação:** Imobilizado
+    - **Descrição da Classificação:** Transferência de ativos imobilizados.
+- **TBC - TRANSFERENCIA DE BENFEITORIAS**
+    - **Tipo:** Transferência
+    - **Descrição do Tipo:** Transferência de benfeitorias.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Transferência de benfeitorias de um local para outro.
+- **TCC - TRANSFERENCIA CENTRALIZACAO**
+    - **Tipo:** Transferência
+    - **Descrição do Tipo:** Transferência para centralização.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Transferência de produtos para centralização.
+- **TCD - TRANSFERENCIA DEPOSITO**
+    - **Tipo:** Transferência
+    - **Descrição do Tipo:** Transferência para depósito.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Transferência de produtos para depósito específico.
+- **TCE - TRANSFERENCIA PARA ESTOQUE**
+    - **Tipo:** Transferência
+    - **Descrição do Tipo:** Transferência para estoque.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Transferência de produtos para outro estoque.
+- **TCF - TRANSFERENCIA DE MATRIZ FILIAL**
+    - **Tipo:** Transferência
+    - **Descrição do Tipo:** Transferência de matriz para filial.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Transferência de produtos da matriz para filial.
+- **TCG - TRANSFERENCIA PARA OUTROS ESTABELECIMENTO**
+    - **Tipo:** Transferência
+    - **Descrição do Tipo:** Transferência para outros estabelecimentos.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Transferência de produtos para outros estabelecimentos.
+- **TCI - TRANSFERENCIA DE INDUSTRIALIZACAO**
+    - **Tipo:** Transferência
+    - **Descrição do Tipo:** Transferência para industrialização.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Transferência de produtos para processos de industrialização.
+- **TCM - TRANSFERENCIA DA MATRIZ**
+    - **Tipo:** Transferência
+    - **Descrição do Tipo:** Transferência da matriz.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Transferência de produtos da matriz para outro local.
+- **TCN - TRANSFERENCIA DA FILIAL**
+    - **Tipo:** Transferência
+    - **Descrição do Tipo:** Transferência entre filiais.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Transferência de produtos entre filiais.
+- **TCP - TRANSFERENCIA PROCESSO PRODUTIVO**
+    - **Tipo:** Transferência
+    - **Descrição do Tipo:** Transferência para processo produtivo.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Transferência de produtos para processo produtivo.
+- **TCT - TRANSFERENCIA DE TERCEIROS**
+    - **Tipo:** Transferência
+    - **Descrição do Tipo:** Transferência para terceiros.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Transferência de produtos para empresas ou terceiros.
+- **TGD - TRANSFERENCIA GERAÇÃO DE IMPOSTO**
+    - **Tipo:** Transferência
+    - **Descrição do Tipo:** Transferência de geração de imposto.
+    - **Classificação:** Outros
+    - **Descrição da Classificação:** Transferência utilizada para registros de geração de impostos.
+- **TGV - TRANSFERENCIA PARA GANHO**
+    - **Tipo:** Transferência
+    - **Descrição do Tipo:** Transferência para ganho.
+    - **Classificação:** Transferência
+    - **Descrição da Classificação:** Transferência de produtos para ganho.
+- **VME - VENDA MERCADORIA DEVOLUCAO**
+    - **Tipo:** Venda
+    - **Descrição do Tipo:** Venda de mercadoria com devolução.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Venda de mercadoria com devolução por parte do cliente.
+- **VO - VENDA**
+    - **Tipo:** Venda
+    - **Descrição do Tipo:** Venda realizada.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Venda de produtos.
+- **VSE - VENDA SUBSIDIO EVENTUAL**
+    - **Tipo:** Venda
+    - **Descrição do Tipo:** Venda com subsídio eventual.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Venda de produtos com subsídio eventual.
+- **VSG - VENDA SUBSIDIO GERAL**
+    - **Tipo:** Venda
+    - **Descrição do Tipo:** Venda com subsídio geral.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Venda de produtos com subsídio geral.
+- **VSL - VENDA SUBSIDIO LIVRO**
+    - **Tipo:** Venda
+    - **Descrição do Tipo:** Venda com subsídio de livro.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Venda de livros com subsídio específico.
+- **VSM - VENDA SUBSIDIO MEDICAMENTO**
+    - **Tipo:** Venda
+    - **Descrição do Tipo:** Venda com subsídio de medicamento.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Venda de medicamentos com subsídio específico.
+- **VSR - VENDA SUBSIDIO RURAL**
+    - **Tipo:** Venda
+    - **Descrição do Tipo:** Venda com subsídio rural.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Venda de produtos com subsídio rural.
+- **VT - VENDA DE TRANSFERENCIA**
+    - **Tipo:** Venda
+    - **Descrição do Tipo:** Venda de transferência.
+    - **Classificação:** Vendas
+    - **Descrição da Classificação:** Venda de produtos transferidos.

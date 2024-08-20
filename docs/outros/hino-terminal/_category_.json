@@ -1,0 +1,8 @@
+{
+  "label": "Hino Terminal",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentação a cerca do HinoERP."
+  }
+}

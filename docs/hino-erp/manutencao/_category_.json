@@ -1,0 +1,8 @@
+{
+  "label": "Manutenção",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "O módulo gerais é composto de diversos sub módulos que permitem adicionar desde informações básicas até as mais necessárias. A utilização de cada sub módulo vai depender do processo e necessidade de cada entidade."
+  }
+}

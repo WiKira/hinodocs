@@ -1,0 +1,8 @@
+{
+  "label": "Estoque",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Um módulo de estoque em um sistema ERP (Enterprise Resource Planning - Planejamento de Recursos Empresariais) tem como objetivo principal gerenciar e controlar todas as atividades relacionadas ao estoque de uma empresa. Ele desempenha várias funções vitais para a gestão eficaz do inventário e das operações comerciais."
+  }
+}
