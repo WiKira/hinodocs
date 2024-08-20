@@ -9,7 +9,7 @@
 1 - Deve existir ao menos um usuário controlador com permissão de administrador, este vai ser responsável pelos demais cadastros. Caso não exista solicite aos consultores que realizem a liberação para um usuário controlador.
 
 :::tip
-Quer saber o que é um usuário controlador? [**Clique Aqui!**](https://www.notion.so/Usu-rio-Controlador-6bf1d8cc09774b95a05421a87ce7c205?pvs=21)
+Quer saber o que é um usuário controlador? [**Clique Aqui!**](../../documentos-gerais/usuarios-chave.md)
 :::
 
 ---
@@ -47,7 +47,7 @@ Quer saber o que é um usuário controlador? [**Clique Aqui!**](https://www.noti
 - Os dados principais são; **Código do usuário**, **Nome do usuário** e **E-mail**. Se o usuário cadastrado for um administrador ou seja se ele for o tipo de usuário que vai ter acesso a todos os módulos e funções do sistema independente das permissões, marque a caixa ‘Administrador’.
 
 :::tip
-Quer aprender como definir as permissões dos usuários? [**Clique Aqui!**](https://www.notion.so/Permiss-es-8656d4b6d744403a8fd678f898ea2f74?pvs=21)
+Quer aprender como definir as permissões dos usuários? [**Clique Aqui!**](configurar-permissoes.md)
 :::
 
 ![criacao-de-usuarios-5](./img/criacao-de-usuarios/criacao-de-usuarios-5.png)

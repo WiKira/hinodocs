@@ -40,6 +40,8 @@ As abas ‘Parametros (Terceiro) e (AMAZON) são para uso do HINO, por tanto nã
 
 ![colaboradores-3](./img/colaboradores/colaboradores-3.png)
 
-[Grupo Estab.](https://www.notion.so/Grupo-Estab-11a921195f0749c5859105ff550f723e?pvs=21)
+:::tip
+Quer aprender sobre grupo de estabelecimentos? [**Clique aqui**](grupo-estabelecimentos.md).
 
-[Unidade de negócio](https://www.notion.so/Unidade-de-neg-cio-1b7a038a2717455c8d453d39105f5495?pvs=21)
+Quer aprender sobre unidades de negócio? [**Clique aqui**](unidade-de-negocio.md).
+:::

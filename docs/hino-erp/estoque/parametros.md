@@ -13,7 +13,7 @@
 :::
 
 :::tip
-Quer aprender sobre permissões? [**Clique Aqui!**](https://www.notion.so/Permiss-es-8656d4b6d744403a8fd678f898ea2f74?pvs=21)
+Quer aprender sobre permissões? [**Clique Aqui!**](../ambiente/configurar-permissoes.md)
 :::
 
 ---
@@ -59,7 +59,7 @@ Em ambos os cenários, o resultado será o mesmo: você terá acesso ao registro
 - **Controla perfil local de estoque?** Se marcado, os usuários só poderão ter acesso aos locais de estoque definido nas permissões.
 
 :::tip
-Quer aprender sobre permissões? [**Clique Aqui!**](https://www.notion.so/Permiss-es-8656d4b6d744403a8fd678f898ea2f74?pvs=21)
+Quer aprender sobre permissões? [**Clique Aqui!**](../ambiente/configurar-permissoes.md)
 :::
 
 - **Aprova requisição.** Se marcado as requisições de estoque realizada pelos usuários serão aprovadas automaticamente sem a necessidade de uma aprovação manual.
@@ -67,13 +67,13 @@ Quer aprender sobre permissões? [**Clique Aqui!**](https://www.notion.so/Permis
 - **Exibe personalizados de produto?** Se marcado, caso exista campos personalizados criados no cadastro de produto, esses campos serão mostrados na tela do saldo de estoque.
 
 :::tip
-Quer aprender sobre Campos Personalizados? [**Clique Aqui!**](https://www.notion.so/Campos-Personaliz-veis-5126bdde5cb6498684a4149bcbd58e7d?pvs=21)
+Quer aprender sobre Campos Personalizados? [**Clique Aqui!**]()
 :::
 
 - **Requisição pelo login?** Se marcado, o usuário responsável por aprovar requisições precisa ter o cadastro de login associado ao cadastro de colaboradores
 
 :::tip
-Quer aprender sobre Cadastro de Colaboradores? [**Clique Aqui!**](https://www.notion.so/Colaboradores-028046d79a0b4a71982dff6455f93db5?pvs=21)
+Quer aprender sobre Cadastro de Colaboradores? [**Clique Aqui!**](../gerais/colaboradores.md)
 :::
 
 ![parametros-5](./img/parametros/parametros-5.png)

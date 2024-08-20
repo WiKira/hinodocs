@@ -28,7 +28,7 @@ Então, por exemplo, se um pedido está programado para o dia 30/08/2024 e você
 
 Em “TIPO” você deve informar a maneira que você quer pesquisar os itens a serem incluídos no romaneio, deixarei um explicativo →  
 
-[Explicativo campo “Tipo” no módulo Logística ](https://www.notion.so/Explicativo-campo-Tipo-no-m-dulo-Log-stica-6142f9492409447092cc1f65835ced7c?pvs=21)
+[Explicativo campo “Tipo” no módulo Logística ](tipo-de-romaneio.md)
 
 Clique em Carregar 
 

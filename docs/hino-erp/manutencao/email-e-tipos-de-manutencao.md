@@ -32,5 +32,5 @@ Caso a classe do seu equipamento já esteja vinculada ao tipo de manutenção, v
 
 :::tip
 Precisa incluir a classe do equipamento no tipo de manutenção? Clique aqui
-[Como vincular a classe de um equipamento em um tipo de manutenção ](https://www.notion.so/Como-vincular-a-classe-de-um-equipamento-em-um-tipo-de-manuten-o-a08914a21f144cbd803fa51ccabc3bc2?pvs=21)
+[Como vincular a classe de um equipamento em um tipo de manutenção ](vinculo-classe-equipamento-tipo-manutencao.md)
 :::

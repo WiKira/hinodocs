@@ -17,7 +17,7 @@ sidebar_position: 5
 :::
 
 :::tip
-**Gatilho**: Quer aprender como cadastrar um usuário? [**Clique Aqui!**](https://www.notion.so/Cria-o-de-Usu-rios-para-o-ERP-5e14acced9604d91b8f8c69f85154cb5?pvs=21)
+Quer aprender como cadastrar um usuário? [**Clique Aqui!**](../hino-erp/ambiente/criacao-de-usuarios.md)
 :::
 
 ## Como acessar o sistema
@@ -42,5 +42,5 @@ sidebar_position: 5
 Do contrário a entrada será bem sucedida.
 
 :::tip
-**Gatilho:** Quer aprender como tratar as atualizações? **[Clique Aqui!](https://www.notion.so/Procedimento-para-atualiza-es-e58764bf7fd044359ebe61f38d5e74d4?pvs=21)**
+Quer aprender como tratar as atualizações? [**Clique Aqui!**](./atualizacao-de-tags.md)
 :::

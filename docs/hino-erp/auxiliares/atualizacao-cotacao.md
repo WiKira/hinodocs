@@ -14,7 +14,7 @@ Possuir o arquivo com as cotações da Moeda no Banco Central
 :::
 
 :::tip
-[Como Baixar o Arquivo em Excel das Cotações de uma Moeda no Banco Central](https://www.notion.so/Como-Baixar-o-Arquivo-em-Excel-das-Cota-es-de-uma-Moeda-no-Banco-Central-4bc07156ef9e4ab1a971d2a837779afe?pvs=21)
+Aprenda a como realizar o download das cotações do Banco Central, [**clicando aqui**](download-arquivo-bacen.md).
 :::
 
 
@@ -23,8 +23,6 @@ Clique na aba “AUXILIARES”
 Clique em “Câmbio”
 
 ![atualizacao-cotacao](./img/atualizacao-cotacao/atualizacao-cotacao.png)
-
-**SAIDA/RESULTADO:** 
 
 O sistema exibirá uma lista de todas as moedas cujas cotações foram incluídas no sistema a partir dos dados do Banco Central
 
@@ -55,5 +53,3 @@ O sistema abrirá um bloco de notas mostrando quais “linhas” ou cotações f
 ![atualizacao-cotacao-5](./img/atualizacao-cotacao/atualizacao-cotacao-5.png)
 
 → Após revisar o bloco de notas, você pode fechá-lo e retornar ao sistema, onde a lista de câmbio estará atualizada com as novas cotações que foram incluídas 
-
-[https://www.notion.so](https://www.notion.so)

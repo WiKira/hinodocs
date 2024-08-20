@@ -58,5 +58,5 @@ Após isso a atualização será bem sucedida. Feche o console ao apertar qualqu
 - A janela de acesso será iniciada, insira suas credenciais e clique em ‘Entrar’.
 
 :::tip
-Não sabe como realizar o acesso? [**Clique Aqui!**](https://www.notion.so/Realizando-o-acesso-2cde17c205824b61ac57fbf636243919?pvs=21)
+Não sabe como realizar o acesso? [**Clique Aqui!**](./acessando-o-hino.md)
 :::

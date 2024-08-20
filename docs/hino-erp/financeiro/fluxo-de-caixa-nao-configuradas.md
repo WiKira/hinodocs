@@ -56,8 +56,8 @@ Isso facilita a identificação das entradas e saídas, permitindo que você rap
 
 **Para acerto das contas de fluxo de caixa de saída**: Consulte o manual específico para ajustes relacionados a saídas. Ele fornecerá o passo a passo para garantir que todos os detalhes estejam corretos e adequados.
 
-[Configuração de fluxo de caixa para operações de saída (pagamentos)](https://www.notion.so/Configura-o-de-fluxo-de-caixa-para-opera-es-de-sa-da-pagamentos-01a70087682d4200b09bc2aefb5c72c2?pvs=21)
+[Configuração de fluxo de caixa para operações de saída (pagamentos)](fluxo-de-caixa-saidas.md)
 
 - **Para acerto das contas de fluxo de caixa de entrada**: Consulte o manual destinado às entradas. Ele detalha os procedimentos para adicionar ou ajustar informações relacionadas às entradas no fluxo de caixa.
 
-[Configuração de fluxo de caixa para operações de entrada (recebimento)](https://www.notion.so/Configura-o-de-fluxo-de-caixa-para-opera-es-de-entrada-recebimento-4415dca02e29490097b0fb43b767009c?pvs=21)
+[Configuração de fluxo de caixa para operações de entrada (recebimento)](fluxo-de-caixa-recebimentos.md)

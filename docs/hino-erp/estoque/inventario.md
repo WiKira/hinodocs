@@ -27,4 +27,6 @@ Além desses, existem locais de transição, como **PROC**, **EXP**, **REV**, **
 
 É importante notar que os locais mencionados aqui seguem uma nomenclatura padrão no sistema. Para garantir a precisão das operações, é essencial que você saiba quais são os locais designados para produtos acabados e matéria-prima em seu contexto específico.
 
-[Como realizar o inventário - Lista de seleção](https://www.notion.so/Como-realizar-o-invent-rio-Lista-de-sele-o-2c3bef6b28f345f491490ae8b631d87a?pvs=21)
+:::tip
+Aprenda a realizar um inventário a partir da lista de seleção [**clicando aqui**](inventario-lista-selecao.md).
+:::

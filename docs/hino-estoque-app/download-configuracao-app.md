@@ -16,7 +16,7 @@ Dispositivo com sistema Android versão 6.0 ou superior.
 :::
 
 :::tip
-Para realizar o download do instalador [**Clique aqui!**](https://drive.google.com/file/d/1Ikjc4lr-HHbBwDzEtW5iiMmMX5rhIhVU/view?usp=drive_link)
+Para realizar o download do instalador [**Clique aqui!**](download-configuracao-app.md)
 :::
 
 ___

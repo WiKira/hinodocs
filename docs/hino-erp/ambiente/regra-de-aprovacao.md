@@ -8,7 +8,7 @@
 
 :::danger
 **Requisitos** 
-Para criar uma regra de aprovação com os utilizadores desejados, os utilizadores precisam estar cadastrados em **USUÁRIOS**. Saiba como cadastrar um novo usuário [**clicando aqui.**](https://www.notion.so/Cria-o-de-Usu-rios-para-o-ERP-5e14acced9604d91b8f8c69f85154cb5?pvs=21) 
+Para criar uma regra de aprovação com os utilizadores desejados, os utilizadores precisam estar cadastrados em **USUÁRIOS**. Saiba como cadastrar um novo usuário [**clicando aqui.**](criacao-de-usuarios.md) 
 :::
 ---
 

@@ -17,7 +17,7 @@ O usuário deve ter acesso ao Hino ERP com permissões para o cadastro de colabo
 :::
 
 :::tip
-Quer saber como instalar o aplicativo Hino Estoque? [**Clique aqui**](https://www.notion.so/Instala-o-do-aplicativo-Hino-Estoque-f3a7fe04e1074c80957ab9e6cf84044a?pvs=21)!
+Quer saber como instalar o aplicativo Hino Estoque? [**Clique aqui**](download-configuracao-app.md)!
 :::
 
 ---
@@ -43,7 +43,7 @@ O colaborador que vai ter acesso ao aplicativo, deve possuir usuário cadastrado
 :::
 
 :::tip
-Quer aprender a cadastrar usuários? [**Clique Aqui!**](https://www.notion.so/Cria-o-de-Usu-rios-para-o-ERP-5e14acced9604d91b8f8c69f85154cb5?pvs=21)
+Quer aprender a cadastrar usuários? [**Clique Aqui!**](configuracoes-previas.md)
 :::
 
 ![configuracoes-previas-2](./img/configuracoes-previas/configuracoes-previas-2.png)

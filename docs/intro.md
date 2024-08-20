@@ -2,46 +2,32 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introdução
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Aqui você poderá consultar a **Documentação Hino Sistemas**.
 
-## Getting Started
+## Tópicos
 
-Get started by **creating a new site**.
+A documentação está separada em tópicos, sendo esses:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+[**Documentos Gerais:**](./category/documentos-gerais) para dados gerias da empresa, usuário chave, processos de implantação, suporte, primeiro contato com o sistema e processos de atualizações do sistema.
 
-### What you'll need
+[**Hino ERP:**](./category/hino-erp) documentos e manuais de processos referentes ao HinoERP.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+[**Hino GXN:**](./category/hino-gxn) documentos e manuais de processos referentes ao Hino GXN.
 
-## Generate a new site
+[**Hino Estoque (APP):**](./category/hino-estoque-app) documentos e manuais de processos referentes ao aplicativo mobile de Estoque e Apontamentos de Produção.
 
-Generate a new Docusaurus site using the **classic template**.
+[**Hino Logística (APP):**](./category/hino-logistica-app) documentos e manuais de processos referentes ao aplicativo mobile de Logística e Romaneio.
 
-The classic template will automatically be added to your project after you run the command:
+[**Integrações:**](./category/integracoes) documentos e manuais com as Integrações existentes no HinoERP com Aplicações e API's de Terceiros.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+[**Serviços:**](./category/servicos) documentos e manuais com os Serviços do Windows disponíveis pela Hino.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+[**Outros:**](./category/outros) documentos e manuais de projetos pontuais e/ou descontinuados disponibilizados pela Hino.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+:::info[🐙 **** Hino Sistemas de Gestão ****]
+**Endereço:** R. Barão de Cascalho, 500 - Centro, Limeira - SP, 13480-770
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+**Telefone:** (19) 3090-1393
+:::

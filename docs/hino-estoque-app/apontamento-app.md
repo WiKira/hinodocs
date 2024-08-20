@@ -17,11 +17,11 @@ O usuário deve ter acesso ao Hino ERP com permissões para o cadastro de colabo
 :::
 
 :::tip
-Quer saber como instalar o aplicativo Hino Estoque? [**Clique aqui**](https://www.notion.so/Instala-o-do-aplicativo-Hino-Estoque-f3a7fe04e1074c80957ab9e6cf84044a?pvs=21)!
+Quer saber como instalar o aplicativo Hino Estoque? [**Clique aqui**](download-configuracao-app.md)!
 :::
 
 :::tip
-**Gatilho:** Quer saber como cadastrar um colaborador para uso do aplicativo? [Clique aqui](https://www.notion.so/Configura-o-APP-x-ERP-1-44a4008387dd4fa39a118bd1c47abd69?pvs=21)!
+Quer saber como cadastrar um colaborador para uso do aplicativo? [**Clique aqui**](configuracoes-previas.md)!
 :::
 
 ---
@@ -34,7 +34,7 @@ Você será levado para uma tela onde será mostrado as ordem de produção já 
 
 ![apontamento-app-1](./img/apontamento-app/apontamento-app-1.png)
 
-Para realizar um novo apontamento você deve apertar o botão de “➕” no canto superior da tela o sistema entrará na tela de busca de O.P igual ao da separação de O.P (Dúvidas em como buscar a O.P? [clique aqui!](https://www.notion.so/Separar-O-P-37d5f1de10dd4828aa3b5964f11c74bf?pvs=21)) após selecionar a ordem você será enviado para a tela abaixo.
+Para realizar um novo apontamento você deve apertar o botão de “➕” no canto superior da tela o sistema entrará na tela de busca de O.P igual ao da separação de O.P (Dúvidas em como buscar a O.P? [clique aqui!](separar-op.md)) após selecionar a ordem você será enviado para a tela abaixo.
 
 ![apontamento-app-2](./img/apontamento-app/apontamento-app-2.png)
 

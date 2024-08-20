@@ -11,7 +11,7 @@ import ReactPlayer from 'react-player'
 :::danger
 **Requisitos**
 
-1 - Precisa saber o código do produto que será feito a reversão do ajuste.
+Precisa saber o código do produto que será feito a reversão do ajuste.
 :::
 
 ---

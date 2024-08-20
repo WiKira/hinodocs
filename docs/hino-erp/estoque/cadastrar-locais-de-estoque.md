@@ -11,7 +11,7 @@
 Vamos explorar como é possível cadastrar locais de estoque para diferentes cenários, independentemente dos locais pré-definidos no ERP.
 
 :::tip
-Não sabe sobre os Locais Pré Definidos? [Clique Aqui!](https://www.notion.so/Sobre-os-Locais-de-Estoque-f68dcad468a14df188f76631f5778b85?pvs=21)
+Não sabe sobre os Locais Pré Definidos? [Clique Aqui!](locais-de-estoque.md)
 :::
 
 ## Sequência para criar locais de estoque
@@ -81,7 +81,7 @@ Após preencher os campos e definir os parâmetros clique em salvar.
 
 
 :::tip
-Não sabe qual classificação utilizar? [Clique Aqui!](https://www.notion.so/Sobre-os-Locais-de-Estoque-f68dcad468a14df188f76631f5778b85?pvs=21)
+Não sabe qual classificação utilizar? [Clique Aqui!](locais-de-estoque.md)
 :::
 
 ---

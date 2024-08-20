@@ -12,21 +12,21 @@
 Classe do equipamento o qual você irá abrir a solicitação
 
 :::tip
-[Como consultar a classe de um equipamento](https://www.notion.so/Como-consultar-a-classe-de-um-equipamento-2117ef32daf9403393599ded4d1ce952?pvs=21)
+[Como consultar a classe de um equipamento](verificar-classe-equipamento.md)
 :::
 
 Verifique se a classe do equipamento está informada no tipo de manutenção para o qual você está solicitando a ordem de serviço, e confira se o e-mail do responsável está vinculado a essa classe.
 
 :::tip
-[Como incluir|consultar o e-mail cadastrado no parâmetro](https://www.notion.so/Como-incluir-consultar-o-e-mail-cadastrado-no-par-metro-762ae2bb68aa4db7b4c88f22a9b02643?pvs=21)
+[Como incluir|consultar o e-mail cadastrado no parâmetro](incluir-consultar-email-parametro.md)
 :::
 
 :::tip
-[Como consultar os e-mails e classes vinculados aos tipos de manutenção](https://www.notion.so/Como-consultar-os-e-mails-e-classes-vinculados-aos-tipos-de-manuten-o-d873ed7a439840a6ad6bd2253c006797?pvs=21)
+[Como consultar os e-mails e classes vinculados aos tipos de manutenção](email-e-tipos-de-manutencao.md)
 :::
 
 :::tip
-[Como vincular a classe de um equipamento em um tipo de manutenção ](https://www.notion.so/Como-vincular-a-classe-de-um-equipamento-em-um-tipo-de-manuten-o-a08914a21f144cbd803fa51ccabc3bc2?pvs=21)
+[Como vincular a classe de um equipamento em um tipo de manutenção ](vinculo-classe-equipamento-tipo-manutencao.md)
 :::
 :::
 

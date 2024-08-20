@@ -25,11 +25,11 @@ import ReactPlayer from 'react-player'
 **Passo 1**: Inicie com um ajuste de estoque ou inventário para zerar os saldos dos lotes disponíveis relacionados ao produto afetado.
 
 :::tip
-Não sabe como realizar um ajuste? [**Clique Aqui!**](https://www.notion.so/Fazer-um-ajuste-de-saldo-81ace573d4724e908de4ca31eb2c0c03?pvs=21)
+Não sabe como realizar um ajuste? [**Clique Aqui!**](fazer-ajuste-de-estoque.md)
 :::
 
 :::tip
-Não sabe como realizar um inventário? **Clique Aqui!**
+Não sabe como realizar um inventário? [**Clique Aqui!**](inventario.md)
 :::
 
 **Passo 2**: No cadastro do produto afetado, desmarque a opção de rastreabilidade, removendo a associação com lotes.
@@ -47,7 +47,7 @@ Ou se preferir na tela de ‘Saldo Estoque’ faça um duplo clique sobre o link
 **Passo 3:** Execute um novo ajuste ou inventário para zerar os saldos, agora considerando que o produto não possui rastreabilidade de lotes.
 
 :::tip
-Não sabe como realizar um ajuste? [**Clique Aqui!**](https://www.notion.so/Fazer-um-ajuste-de-saldo-81ace573d4724e908de4ca31eb2c0c03?pvs=21)
+Não sabe como realizar um ajuste? [**Clique Aqui!**](fazer-ajuste-de-estoque.md)
 :::
 
 :::tip
@@ -62,7 +62,7 @@ Não sabe como realizar um inventário? **Clique Aqui!**
 **Passo 5**: Realize um ajuste ou inventário específico para inserir os saldos nos lotes desejados, uma vez que a rastreabilidade foi restabelecida.
 
 :::tip
-Não sabe como realizar um ajuste? [**Clique Aqui!**](https://www.notion.so/Fazer-um-ajuste-de-saldo-81ace573d4724e908de4ca31eb2c0c03?pvs=21)
+Não sabe como realizar um ajuste? [**Clique Aqui!**](fazer-ajuste-de-estoque.md)
 :::
 
 :::tip

@@ -15,7 +15,7 @@ import ReactPlayer from 'react-player'
 :::
 
 :::tip
-Quer aprender a cadastrar locais de estoque? [**Clique Aqui!**](https://www.notion.so/Locais-de-Estoque-eb53ccfe1d4b4ed58f601496acbbaa87?pvs=21)
+Quer aprender a cadastrar locais de estoque? [**Clique Aqui!**](locais-de-estoque.md)
 :::
 
 ---

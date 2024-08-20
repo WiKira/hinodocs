@@ -17,30 +17,30 @@ import ReactPlayer from 'react-player'
 2.  Os usuários devem estar cadastrados .
 
 :::tip
-Quer aprender como cadastrar um usuário? [**Clique Aqui!**](https://www.notion.so/Cria-o-de-Usu-rios-para-o-ERP-5e14acced9604d91b8f8c69f85154cb5?pvs=21)
+Quer aprender como cadastrar um usuário? [**Clique Aqui!**](../ambiente/criacao-de-usuarios.md)
 :::
 
 1. O grupo de usuários deve estar cadastrado.
 
 :::tip
-Quer aprender como cadastrar um grupo de usuário? [**Clique Aqui!**](https://www.notion.so/Grupo-de-Usu-rios-31b585c47cc941d3b0709355287cb2f0?pvs=21)
+Quer aprender como cadastrar um grupo de usuário? [**Clique Aqui!**](../ambiente/grupo-de-usuarios.md)
 :::
 
 1. Os Locais de estoque devem estar cadastrados.
 
 :::tip
-Quer aprender como cadastrar locais de estoque? [**Clique Aqui!**](https://www.notion.so/Locais-de-Estoque-eb53ccfe1d4b4ed58f601496acbbaa87?pvs=21)
+Quer aprender como cadastrar locais de estoque? [**Clique Aqui!**](../estoque/cadastrar-locais-de-estoque.md)
 :::
 
 1. Os processos operacionais devem estar cadastrados.
 
 :::tip
-Quer aprender como cadastrar processos? [**Clique Aqui!**](https://www.notion.so/Grupo-de-Usu-rios-31b585c47cc941d3b0709355287cb2f0?pvs=21)
+Quer aprender como cadastrar processos? [**Clique Aqui!**]()
 :::
 
 1. As tabelas de preços devem estar cadastradas.
 :::tip
-Quer aprender como cadastrar tabela de preço? [**Clique Aqui!**](https://www.notion.so/Grupo-de-Usu-rios-31b585c47cc941d3b0709355287cb2f0?pvs=21)
+Quer aprender como cadastrar tabela de preço? [**Clique Aqui!**]()
 :::
 :::
 
@@ -69,7 +69,7 @@ As permissões de usuários em um sistema ERP (Enterprise Resource Planning - Pl
 **Passo 3: Escolha o grupo de usuários.**
 
 :::tip
-Ainda não sabe como cadastrar um grupo de usuário? [Clique Aqui!](https://www.notion.so/Grupo-de-Usu-rios-31b585c47cc941d3b0709355287cb2f0?pvs=21)
+Ainda não sabe como cadastrar um grupo de usuário? [Clique Aqui!](../ambiente/grupo-de-usuarios.md)
 :::
 
 - Para selecionar o grupo de usuário basta clicar campo em branco e os grupos disponíveis serão exibidos para seleção. Só é possível criar as permissões de um grupo por vez.

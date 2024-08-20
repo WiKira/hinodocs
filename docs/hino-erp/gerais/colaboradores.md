@@ -13,7 +13,7 @@ O usuário responsável pelo cadastro dos colaboradores deve estar cadastrado no
 :::
 
 :::tip
-Quer aprender sobre o Permissões ? [**Clique Aqui!**](https://www.notion.so/Permiss-es-8656d4b6d744403a8fd678f898ea2f74?pvs=21)
+Quer aprender sobre o Permissões ? [**Clique Aqui!**](../ambiente/configurar-permissoes.md)
 :::
 
 ---
@@ -42,7 +42,7 @@ O campo **Usuário** é para vincular o usuário do colaborador caso ele seja ut
 ![colaboradores-3](./img/colaboradores/colaboradores-3.png)
 
 :::tip
-Quer aprender sobre os Usuários ? [**Clique Aqui!**](https://www.notion.so/Cria-o-de-Usu-rios-para-o-ERP-5e14acced9604d91b8f8c69f85154cb5?pvs=21)
+Quer aprender sobre os Usuários ? [**Clique Aqui!**](../ambiente/criacao-de-usuarios.md)
 :::
 
 O campo **Centro de Custo** é para vincular o centro de custo a qual o colaborador pertence. É importante esse vínculo para contribuir no fechamento de custo da empresa, sem isso não é possível saber quanto o colaborador está custando para a empresa.
