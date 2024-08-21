@@ -46,4 +46,6 @@ TERCEIROS: refere-se a equipamentos que são de propriedade de terceiros, ou sej
 
 ![criar-classe-de-equipamento-4](./img/criar-classe-de-equipamento/criar-classe-de-equipamento-4.png)
 
-Clique em salvar (F10)
+Clique em salvar (F10).
+
+---
