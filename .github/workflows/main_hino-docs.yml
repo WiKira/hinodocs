@@ -12,8 +12,22 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-
+    
     steps:
+      - task: ExtractFiles@1
+        displayName: 'Extract files'
+        inputs:
+        archiveFilePatterns: '$(InputPackageZipPath)'
+        destinationFolder: '$(OutputUnzippedPath)'
+
+      - task: AzureRmWebAppDeployment@4
+        displayName: 'Azure App Service Deploy'
+        inputs:
+        azureSubscription: 'Subscription'
+        WebAppName: 'app-name'
+        package: '$(OutputUnzippedPath)'
+        enableXmlTransform: true
+        
       - uses: actions/checkout@v4
 
       - name: Set up Node.js version
@@ -62,17 +76,3 @@ jobs:
           app-name: 'hino-docs'
           slot-name: 'Production'
           package: .
-          
-      - task: ExtractFiles@1
-        displayName: 'Extract files'
-        inputs:
-        archiveFilePatterns: '$(InputPackageZipPath)'
-        destinationFolder: '$(OutputUnzippedPath)'
-
-      - task: AzureRmWebAppDeployment@4
-        displayName: 'Azure App Service Deploy'
-        inputs:
-        azureSubscription: 'Subscription'
-        WebAppName: 'app-name'
-        package: '$(OutputUnzippedPath)'
-        enableXmlTransform: true
