@@ -63,17 +63,16 @@ jobs:
           slot-name: 'Production'
           package: .
           
-    steps:
-    - task: ExtractFiles@1
-      displayName: 'Extract files'
-      inputs:
-      archiveFilePatterns: '$(InputPackageZipPath)'
-      destinationFolder: '$(OutputUnzippedPath)'
+      - task: ExtractFiles@1
+        displayName: 'Extract files'
+        inputs:
+        archiveFilePatterns: '$(InputPackageZipPath)'
+        destinationFolder: '$(OutputUnzippedPath)'
 
-    - task: AzureRmWebAppDeployment@4
-      displayName: 'Azure App Service Deploy'
-      inputs:
-      azureSubscription: 'Subscription'
-      WebAppName: 'app-name'
-      package: '$(OutputUnzippedPath)'
-      enableXmlTransform: true
+      - task: AzureRmWebAppDeployment@4
+        displayName: 'Azure App Service Deploy'
+        inputs:
+        azureSubscription: 'Subscription'
+        WebAppName: 'app-name'
+        package: '$(OutputUnzippedPath)'
+        enableXmlTransform: true
