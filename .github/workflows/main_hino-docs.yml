@@ -38,7 +38,7 @@ jobs:
           npm run test --if-present
 
       - name: Compress build artifacts
-        run: tar -czvf build-artifacts.tar.gz path/to/files/**
+        run: tar -czvf build-artifacts.tar.gz
       
       - name: Upload compressed artifact
         uses: actions/upload-artifact@v2
