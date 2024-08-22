@@ -14,21 +14,11 @@ jobs:
     runs-on: windows-latest
     
     steps:
-      - task: ExtractFiles@1
-        displayName: 'Extract files'
-        inputs:
-        archiveFilePatterns: '$(InputPackageZipPath)'
-        destinationFolder: '$(OutputUnzippedPath)'
+      - name: Aumentar o limite de arquivos abertos
+        run: ulimit -n 4096
 
-      - task: AzureRmWebAppDeployment@4
-        displayName: 'Azure App Service Deploy'
-        inputs:
-        azureSubscription: 'Subscription'
-        WebAppName: 'app-name'
-        package: '$(OutputUnzippedPath)'
-        enableXmlTransform: true
-        
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
       - name: Set up Node.js version
         uses: actions/setup-node@v3
