@@ -5,7 +5,7 @@ sidebar_position: 1
 # Sobre o Suporte
 
 :::tip
-☎️ Precisa de Suporte? Ligue para [**(19)3090-1393](01930901393)**
+☎️ Precisa de Suporte? Ligue para **(19)3090-1393**
 :::
 
 **O que você precisa saber…**
