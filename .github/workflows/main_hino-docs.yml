@@ -1,6 +1,3 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
-
 name: Build and deploy Node.js app to Azure Web App - hino-docs
 
 on:
@@ -11,40 +8,27 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
-    
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      
-      - name: Cache Node.js modules
-        uses: actions/cache@v2
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js 14
+        uses: actions/setup-node@v2
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          node-version: 14
 
-      - name: Set up Node.js version
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20.x'
+      - name: Install dependencies
+        run: npm install
+             npm install react-player
 
-      - name: npm install, build, and test
-        run: |
-          npm install
-          npm install react-player
-          npm run build --if-present
-          npm run test --if-present
+      - name: Build
+        run: npm run build
 
-      - name: Compress build artifacts
-        run: tar -czvf build-artifacts.tar.gz ./*
-      
-      - name: Upload compressed artifact
+      - name: Archive artifacts
         uses: actions/upload-artifact@v2
         with:
           name: build-artifacts
-          path: build-artifacts.tar.gz
+          path: build
 
   deploy:
     runs-on: ubuntu-latest
@@ -60,22 +44,30 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: build-artifacts
-          path: 
+          path: build
 
-      - name: Extract the artifact
-        run: tar -xzvf build-artifacts.tar.gz -C ./
-      
-      - name: Login to Azure
-        uses: azure/login@v2
+      - name: Extract files
+        uses: actions/cache@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_65E5D0C98AC643AD9E8B5B5B94851C05 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_E02BA140A1784CE8927CDE2D454A06A6 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_9B774159BBE84B2E8910177513D562A7 }}
+          path: build
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
 
-      - name: 'Deploy to Azure Web App'
+      - name: Azure App Service Deploy
         uses: azure/webapps-deploy@v3
-        id: deploy-to-webapp
         with:
           app-name: 'hino-docs'
           slot-name: 'Production'
-          package: .
+          package: build
+
+      - name: Login to Azure
+        uses: azure/login@v2
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: 'Deploy to Azure Web App'
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: 'hino-docs'
+          slot-name: 'Production'
+          package: build
