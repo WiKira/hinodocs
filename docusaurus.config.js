@@ -72,10 +72,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({algolia: {
         // The application ID provided by Algolia
-        appId: 'R2IYF7ETH7',
+        appId: 'DH0WOQT4AT',
         // Public API key: it is safe to commit it
-        apiKey: '599cec31baffa4868cae4e79f180729b',
-        indexName: 'docsearch',
+        apiKey: 'c1163d9fec362fc4dde04d94cfbdeaa4',
+        indexName: 'hinosistemas',
+        debug: false 
       },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
