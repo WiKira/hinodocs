@@ -13,15 +13,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://hinosistemas.docs.com',
+  url: 'https://docs.hinosistemas.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'hinosistemas', // Usually your GitHub org/user name.
-  projectName: 'hino-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -74,9 +69,8 @@ const config = {
         // The application ID provided by Algolia
         appId: 'DH0WOQT4AT',
         // Public API key: it is safe to commit it
-        apiKey: 'c1163d9fec362fc4dde04d94cfbdeaa4',
-        indexName: 'hinosistemas',
-        debug: false 
+        apiKey: '95c6e3bef862943a4a05b98d52a900d1',
+        indexName: 'hinosistemas'
       },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',

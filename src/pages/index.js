@@ -42,6 +42,7 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
+      <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3"></script>
     </Layout>
   );
 }
