@@ -70,7 +70,11 @@ const config = {
         appId: 'DH0WOQT4AT',
         // Public API key: it is safe to commit it
         apiKey: '95c6e3bef862943a4a05b98d52a900d1',
-        indexName: 'hinosistemas'
+        indexName: 'hinosistemas',
+        debug: false,
+        contextualSearch: true,
+        searchPagePath: 'search',
+        insights: false
       },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
