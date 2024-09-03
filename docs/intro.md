@@ -18,11 +18,11 @@ A documentação está separada em tópicos, sendo esses:
 
 [**Hino Estoque (APP):**](./category/hino-estoque-app) documentos e manuais de processos referentes ao aplicativo mobile de Estoque e Apontamentos de Produção.
 
-**Hino Logística (APP):** documentos e manuais de processos referentes ao aplicativo mobile de Logística e Romaneio.
+[**Hino Logística (APP):**](./category/hino-logistica-app) documentos e manuais de processos referentes ao aplicativo mobile de Logística e Romaneio.
 
-**Integrações:** documentos e manuais com as Integrações existentes no HinoERP com Aplicações e API's de Terceiros.
+[**Integrações:**](./category/integracoes) documentos e manuais com as Integrações existentes no HinoERP com Aplicações e API's de Terceiros.
 
-**Serviços:** documentos e manuais com os Serviços do Windows disponíveis pela Hino.
+[**Serviços:**](./category/servicos) documentos e manuais com os Serviços do Windows disponíveis pela Hino.
 
 [**Outros:**](./category/outros) documentos e manuais de projetos pontuais e/ou descontinuados disponibilizados pela Hino.
 

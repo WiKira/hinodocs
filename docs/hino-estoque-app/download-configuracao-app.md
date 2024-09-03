@@ -12,7 +12,7 @@
 **Requisitos**: 
 
 Um dispositivo conectado a internet para realizar download do instalador.
-Dispositivo com sistema Android versão 6.0 ou superior.
+Dispositivo com sistema Android versão 10.0 ou superior.
 :::
 
 :::tip
