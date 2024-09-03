@@ -81,7 +81,7 @@ SE a operação foi realizada com sucesso, o sistema exibirá um aviso ‘*Lista
 
 1. O aviso é fechado e os pedidos da Lista aparecem no APP Logística para separação, porém os pedidos aparecem para todos os usuários logados no nomento.
 
-![Untitled](Aplicativo%20Logi%CC%81stica%2059147dd1ce0c48808c0c77c7e71b7daf/Untitled%207.png)
+![aplicativo-logistica-7](./img/aplicativo-logistica/aplicativo-logistica-7.png)
 
 ### Saída Esperado
 
